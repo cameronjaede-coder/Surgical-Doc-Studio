@@ -1,114 +1,114 @@
 {
   "slug": "my-prd",
   "branch": "main",
-  "exportedAt": "2026-03-30T18:57:16.248Z",
+  "exportedAt": "2026-03-30T19:03:46.111Z",
   "verifiedOnly": false,
   "exportedBlockIds": [
-    "4ef07267-a930-480e-840a-a78185fbbfb6",
-    "9de29961-a1e9-4f18-a224-2ffff6aec656",
-    "3414cfc0-38c5-46e6-8b91-1a38f01c3910",
-    "f8278878-ff3a-480a-817d-6e9f48a34427",
-    "b78eb6cb-2686-4d47-8d35-8359ca2af068",
-    "6c114483-2dc3-4358-9375-c125af9f7fa0",
-    "275a40b3-ec8e-40f3-ad65-b47e62d6aa2d",
-    "3345f8a7-c965-4435-b13c-5b38c1b8aa5d",
-    "5726fdd9-ebc9-481b-83bf-63d8d1b16eee",
-    "695dddd1-783d-4a1c-adee-fdd734cff471",
-    "63ac5541-9538-4449-8d27-bf307fe516c0",
-    "54dbba56-6991-4ea1-98cf-1b5044d55aef",
-    "9ca8219f-8c14-40b1-b58e-7a3b5dcdc8fa",
-    "0ce779a1-a2b2-4e09-b01e-0c8f76ff17e7",
-    "4d3cb6c8-8f2d-4c8b-8cf1-0cb5c55585c4"
+    "9e625818-b982-4a9d-aac3-d83f63734f41",
+    "9caab7dc-4a3b-427d-8167-6accb2c59f5b",
+    "296529be-217a-4b1f-9d9d-fc25520c7114",
+    "a0907321-82ad-4d85-80c2-1ccb1c1b1589",
+    "869ffdd2-a2aa-4d32-adaa-6c1d9a0955df",
+    "42e03ebf-0205-40c6-b704-2d36d12d7c74",
+    "e2e0120d-aba0-4a5a-97d0-f9d7ec0cb9ed",
+    "0926ee23-5283-4dfe-92e2-45250a6fa91d",
+    "f9e8d67e-7d86-4bb6-8d12-7598899ab70f",
+    "3bdb35c3-39a8-4228-a19f-fb22bf1c64f0",
+    "2c8c3a63-81c1-49ae-8168-c6e19aefcd9e",
+    "1aaea069-4f07-4af2-953d-c5eb723a14d0",
+    "6c0476c6-08fd-42ec-8a0c-cf2210117a76",
+    "998c7ff1-37b1-41eb-9a9d-dc562fa18045",
+    "c94d1f62-c821-4493-808a-4cc740ab5965"
   ],
   "blocks": [
     {
-      "id": "4ef07267-a930-480e-840a-a78185fbbfb6",
+      "id": "9e625818-b982-4a9d-aac3-d83f63734f41",
       "kind": "header",
-      "text": "# The Mischievous Adventures of Curious George",
+      "text": "# The Mysterious Adventures of Curious George",
       "verified": true,
-      "verifiedAt": "2026-03-30T18:57:15.472Z",
+      "verifiedAt": "2026-03-30T19:03:44.367Z",
       "verifiedBy": "cameronjaede-coder"
     },
     {
-      "id": "9de29961-a1e9-4f18-a224-2ffff6aec656",
+      "id": "9caab7dc-4a3b-427d-8167-6accb2c59f5b",
       "kind": "header",
       "text": "## The Little Monkey's Adventure",
       "verified": false
     },
     {
-      "id": "3414cfc0-38c5-46e6-8b91-1a38f01c3910",
+      "id": "296529be-217a-4b1f-9d9d-fc25520c7114",
       "kind": "paragraph",
       "text": "In a jungle close to home, beneath the trees so tall,  \nLived a monkey small and brown, the most cautious of all.  \nWith eyes that watched and hands held close, and tail wrapped tight and still,  \nGeorge the monkey feared the world beyond his leafy hill.",
       "verified": false
     },
     {
-      "id": "f8278878-ff3a-480a-817d-6e9f48a34427",
+      "id": "a0907321-82ad-4d85-80c2-1ccb1c1b1589",
       "kind": "paragraph",
       "text": "But slowly, day by day, he'd peek a little more,  \nAt butterflies and rustling leaves he'd never noticed before.  \nHis eyes grew bright, his hands grew quick, his tail began to swing,  \nAnd George the monkey started wondering about every little thing.",
       "verified": false
     },
     {
-      "id": "b78eb6cb-2686-4d47-8d35-8359ca2af068",
+      "id": "869ffdd2-a2aa-4d32-adaa-6c1d9a0955df",
       "kind": "header",
       "text": "### The Yellow Hat",
       "verified": false
     },
     {
-      "id": "6c114483-2dc3-4358-9375-c125af9f7fa0",
+      "id": "42e03ebf-0205-40c6-b704-2d36d12d7c74",
       "kind": "paragraph",
       "text": "One day a man in yellow came, with hat upon his head,  \nHe smiled at little George and said, \"Come with me instead!\"  \nAnd curious George, as was his way, could not resist the call,  \nTo see what lay beyond the trees, beyond the jungle wall.",
       "verified": false
     },
     {
-      "id": "275a40b3-ec8e-40f3-ad65-b47e62d6aa2d",
+      "id": "e2e0120d-aba0-4a5a-97d0-f9d7ec0cb9ed",
       "kind": "header",
       "text": "### In the City",
       "verified": false
     },
     {
-      "id": "3345f8a7-c965-4435-b13c-5b38c1b8aa5d",
+      "id": "0926ee23-5283-4dfe-92e2-45250a6fa91d",
       "kind": "paragraph",
       "text": "To the city George did go, where buildings touched the sky,  \nWhere cars and buses rumbled past, and airplanes flew up high.  \nEach corner held a mystery, each door a brand new prize,  \nThe world was full of wonders for his small and curious eyes.",
       "verified": false
     },
     {
-      "id": "5726fdd9-ebc9-481b-83bf-63d8d1b16eee",
+      "id": "f9e8d67e-7d86-4bb6-8d12-7598899ab70f",
       "kind": "header",
       "text": "### Always Into Mischief",
       "verified": false
     },
     {
-      "id": "695dddd1-783d-4a1c-adee-fdd734cff471",
+      "id": "3bdb35c3-39a8-4228-a19f-fb22bf1c64f0",
       "kind": "paragraph",
       "text": "He painted walls he shouldn't paint, and pressed the buttons red,  \nHe called the fire department once, from a telephone instead.  \nHe floated off with balloons bright, up toward the clouds so white,  \nBut every mess and accident, he'd somehow make things right.",
       "verified": false
     },
     {
-      "id": "63ac5541-9538-4449-8d27-bf307fe516c0",
+      "id": "2c8c3a63-81c1-49ae-8168-c6e19aefcd9e",
       "kind": "header",
       "text": "### The Man with the Yellow Hat",
       "verified": false
     },
     {
-      "id": "54dbba56-6991-4ea1-98cf-1b5044d55aef",
+      "id": "1aaea069-4f07-4af2-953d-c5eb723a14d0",
       "kind": "paragraph",
       "text": "Through every scrape and wild escape, through chaos and through fun,  \nThe man in yellow stayed quite calm and never had to run.  \nWith patience like the ocean deep, with kindness in his heart,  \nHe loved his little monkey friend, right from the very start.",
       "verified": false
     },
     {
-      "id": "9ca8219f-8c14-40b1-b58e-7a3b5dcdc8fa",
+      "id": "6c0476c6-08fd-42ec-8a0c-cf2210117a76",
       "kind": "header",
       "text": "### The Lesson",
       "verified": false
     },
     {
-      "id": "0ce779a1-a2b2-4e09-b01e-0c8f76ff17e7",
+      "id": "998c7ff1-37b1-41eb-9a9d-dc562fa18045",
       "kind": "paragraph",
       "text": "For George taught us that questions asked are never quite in vain,  \nThat wonder is a precious gift, and curiosity sustains.  \nThough trouble follows when we seek the answers that we crave,  \nThe curious heart, both bold and smart, is also kind and brave.",
       "verified": false
     },
     {
-      "id": "4d3cb6c8-8f2d-4c8b-8cf1-0cb5c55585c4",
+      "id": "c94d1f62-c821-4493-808a-4cc740ab5965",
       "kind": "paragraph",
       "text": "So here's to George, the monkey small, who taught us how to see  \nThat every day's an adventure when you're curious as can be.",
       "verified": false
