@@ -1,0 +1,599 @@
+{
+  "version": 1,
+  "slug": "test1dog",
+  "updatedAt": "2026-03-30T02:30:39.700Z",
+  "branch": "main",
+  "blocks": [
+    {
+      "id": "f591a402-f68c-4b96-ba73-6277ed5c1ae4",
+      "kind": "header",
+      "text": "# Hypoallergenic Dog Breeds for Sedentary Lifestyles",
+      "verified": true,
+      "verifiedAt": "2026-03-30T02:30:39.700Z",
+      "verifiedBy": "cameronjaede-coder"
+    },
+    {
+      "id": "467f1cbc-ff3a-4924-b05a-1f77db6a1b1e",
+      "kind": "header",
+      "text": "## Overview",
+      "verified": false
+    },
+    {
+      "id": "47d488f3-b6e5-452e-8541-c0d1224b493c",
+      "kind": "paragraph",
+      "text": "This document provides guidance on selecting dog breeds suitable for individuals with allergies who maintain a more sedentary lifestyle. The ideal companion dogs for this demographic combine low-shedding characteristics (which reduce allergen exposure) with moderate to low exercise requirements.",
+      "verified": false
+    },
+    {
+      "id": "9bf671c5-a7fb-4caf-a3c5-34b7de71abc7",
+      "kind": "header",
+      "text": "## Understanding Dog Allergies",
+      "verified": false
+    },
+    {
+      "id": "3fb64a13-45cb-4615-9a73-46d9151f24ba",
+      "kind": "header",
+      "text": "### Allergen Sources",
+      "verified": false
+    },
+    {
+      "id": "8228af07-6422-4376-8d84-2116cb0dbf60",
+      "kind": "paragraph",
+      "text": "Dog allergies are not actually triggered by fur, but rather by:",
+      "verified": false
+    },
+    {
+      "id": "1dafec67-11bc-464c-9ac1-a0e2aa3ee148",
+      "kind": "list",
+      "text": "- **Dander**: Dead skin cells that flake off and become airborne\n- **Saliva proteins**: Transferred to fur during grooming\n- **Urine proteins**: Can become airborne when dried",
+      "verified": false
+    },
+    {
+      "id": "d13a1e9f-e201-4632-ae93-50a2bf21e06e",
+      "kind": "header",
+      "text": "### The \"Hypoallergenic\" Myth",
+      "verified": false
+    },
+    {
+      "id": "150b2b84-6e41-4eb5-a5b3-36ad4738d616",
+      "kind": "paragraph",
+      "text": "No dog breed is truly 100% hypoallergenic. However, certain breeds produce fewer allergens or shed less, which minimizes allergen distribution throughout the home.",
+      "verified": false
+    },
+    {
+      "id": "3c232159-a06e-48c9-b9dc-e9f28f83b490",
+      "kind": "header",
+      "text": "## Key Criteria for Selection",
+      "verified": false
+    },
+    {
+      "id": "f5a446b6-bd05-4808-b51a-f6a32bc80b38",
+      "kind": "header",
+      "text": "### Low-Shedding Characteristics",
+      "verified": false
+    },
+    {
+      "id": "7b6c0c58-9eb2-4602-8b87-02eebeae5ac5",
+      "kind": "list",
+      "text": "- Single-coat breeds\n- Hair rather than fur (similar to human hair growth patterns)\n- Minimal seasonal coat changes\n- Reduced dander production",
+      "verified": false
+    },
+    {
+      "id": "90535ede-ed50-4113-a68c-c5e1f25012da",
+      "kind": "header",
+      "text": "### Low to Moderate Exercise Needs",
+      "verified": false
+    },
+    {
+      "id": "386f1c3f-93b6-412d-9b7a-44eeb2d1f1d8",
+      "kind": "list",
+      "text": "- Comfortable with 20-30 minutes of daily activity\n- Content with indoor play and mental stimulation\n- Not prone to destructive behavior when sedentary\n- Adaptable to apartment or home living",
+      "verified": false
+    },
+    {
+      "id": "89532306-0be8-40ea-af51-98a82d051286",
+      "kind": "header",
+      "text": "## Recommended Breeds",
+      "verified": false
+    },
+    {
+      "id": "8898ed4d-07cd-4921-ba29-7364d9c72e63",
+      "kind": "header",
+      "text": "### Small Breeds",
+      "verified": false
+    },
+    {
+      "id": "50d43adf-38b7-44a4-abc9-14cd3896a831",
+      "kind": "header",
+      "text": "#### Bichon Frise",
+      "verified": false
+    },
+    {
+      "id": "7207d544-7640-4a86-aefb-28c830081096",
+      "kind": "paragraph",
+      "text": "**Allergy-Friendly Features:**",
+      "verified": false
+    },
+    {
+      "id": "1171889e-2571-44e9-a016-8d6b41743533",
+      "kind": "list",
+      "text": "- Minimal shedding with curly, dense coat\n- Low dander production\n- Requires regular grooming (every 4-6 weeks)",
+      "verified": false
+    },
+    {
+      "id": "c5180a69-d1eb-41c1-a351-a03074f601db",
+      "kind": "paragraph",
+      "text": "**Lifestyle Compatibility:**",
+      "verified": false
+    },
+    {
+      "id": "6aee8caf-7335-4941-9589-52f5ed00421e",
+      "kind": "list",
+      "text": "- **Weight**: 12-18 pounds\n- **Exercise needs**: 20-30 minutes daily\n- **Energy level**: Moderate; content with indoor play\n- **Temperament**: Gentle, cheerful, adaptable\n- **Considerations**: Requires professional grooming; prone to separation anxiety",
+      "verified": false
+    },
+    {
+      "id": "5f86b40c-ff21-4485-8ee7-4e1ae1ffaafd",
+      "kind": "header",
+      "text": "#### Maltese",
+      "verified": false
+    },
+    {
+      "id": "310ac3dc-1d03-4921-9626-be03ab532dcb",
+      "kind": "paragraph",
+      "text": "**Allergy-Friendly Features:**",
+      "verified": false
+    },
+    {
+      "id": "1101b67a-e6e9-4ee2-ba75-5d18b587de2e",
+      "kind": "list",
+      "text": "- Long, silky hair without an undercoat\n- Minimal shedding\n- Small size reduces overall allergen production",
+      "verified": false
+    },
+    {
+      "id": "09d0bea5-f580-4f13-bc9a-46abc7b315e1",
+      "kind": "paragraph",
+      "text": "**Lifestyle Compatibility:**",
+      "verified": false
+    },
+    {
+      "id": "970375eb-6fe9-4d5c-821d-e5b13099d874",
+      "kind": "list",
+      "text": "- **Weight**: 4-7 pounds\n- **Exercise needs**: Short daily walks sufficient\n- **Energy level**: Low to moderate\n- **Temperament**: Affectionate, calm, lap dog tendencies\n- **Considerations**: Daily brushing required; fragile due to small size",
+      "verified": false
+    },
+    {
+      "id": "80dd5d78-1f25-4390-b415-52c97a8f9eff",
+      "kind": "header",
+      "text": "#### Shih Tzu",
+      "verified": false
+    },
+    {
+      "id": "6896c7ba-094c-4438-959b-bb59b15ea8ac",
+      "kind": "paragraph",
+      "text": "**Allergy-Friendly Features:**",
+      "verified": false
+    },
+    {
+      "id": "7b5c23aa-8858-49d8-af33-bebf4122dfb2",
+      "kind": "list",
+      "text": "- Hair-like coat with minimal shedding\n- Low dander levels when properly groomed\n- Hypoallergenic reputation among toy breeds",
+      "verified": false
+    },
+    {
+      "id": "8c1c58d6-cb14-4091-964c-d093471cac45",
+      "kind": "paragraph",
+      "text": "**Lifestyle Compatibility:**",
+      "verified": false
+    },
+    {
+      "id": "7b76b481-633d-4cec-8cad-6f354be80fa3",
+      "kind": "list",
+      "text": "- **Weight**: 9-16 pounds\n- **Exercise needs**: Short walks and indoor play\n- **Energy level**: Low to moderate\n- **Temperament**: Companionable, calm, bred specifically as lap dogs\n- **Considerations**: Requires regular grooming; potential breathing issues due to flat face",
+      "verified": false
+    },
+    {
+      "id": "91d14f68-38c1-45b8-8011-1630b4ea2e94",
+      "kind": "header",
+      "text": "#### Havanese",
+      "verified": false
+    },
+    {
+      "id": "6a747549-03db-4af7-9720-5e1e4f88f73d",
+      "kind": "paragraph",
+      "text": "**Allergy-Friendly Features:**",
+      "verified": false
+    },
+    {
+      "id": "cf01eb82-3784-49f2-88ce-23c5c4e466f6",
+      "kind": "list",
+      "text": "- Silky coat with minimal shedding\n- Low dander production\n- Single-layer coat",
+      "verified": false
+    },
+    {
+      "id": "d3cfa99b-c10c-4f23-aebb-1315770a3afd",
+      "kind": "paragraph",
+      "text": "**Lifestyle Compatibility:**",
+      "verified": false
+    },
+    {
+      "id": "ad944713-b938-4c16-a8e0-dbe1144ebb17",
+      "kind": "list",
+      "text": "- **Weight**: 7-13 pounds\n- **Exercise needs**: 20-30 minutes daily\n- **Energy level**: Moderate but adaptable\n- **Temperament**: Social, gentle, velcro dog tendencies\n- **Considerations**: Needs regular brushing; thrives on human companionship",
+      "verified": false
+    },
+    {
+      "id": "14536f90-f501-4b4f-a55e-f83e76d99f15",
+      "kind": "header",
+      "text": "### Medium Breeds",
+      "verified": false
+    },
+    {
+      "id": "d1ecfbe9-7253-484d-88f8-b792511e6974",
+      "kind": "header",
+      "text": "#### Poodle (Miniature and Standard)",
+      "verified": false
+    },
+    {
+      "id": "d7b77384-3b6c-4c87-8cab-ec7c33d27fe1",
+      "kind": "paragraph",
+      "text": "**Allergy-Friendly Features:**",
+      "verified": false
+    },
+    {
+      "id": "65ee5250-f24e-42e4-aa44-7845ee4ad655",
+      "kind": "list",
+      "text": "- Curly, non-shedding coat\n- Consistently rated among best breeds for allergies\n- Hair grows continuously like human hair",
+      "verified": false
+    },
+    {
+      "id": "e7d0b6d3-15ad-497c-9c70-28b2f9aacf81",
+      "kind": "paragraph",
+      "text": "**Lifestyle Compatibility:**",
+      "verified": false
+    },
+    {
+      "id": "adf3a338-7524-47cf-b811-be7d1a8648e1",
+      "kind": "list",
+      "text": "- **Weight**: Miniature (15-17 lbs), Standard (45-70 lbs)\n- **Exercise needs**: Miniature requires less than Standard; 30-40 minutes daily\n- **Energy level**: Moderate; intelligent and satisfied with mental stimulation\n- **Temperament**: Highly trainable, calm when exercised, versatile\n- **Considerations**: Requires grooming every 6-8 weeks; highly intelligent and may need mental enrichment",
+      "verified": false
+    },
+    {
+      "id": "e14ea7b5-95de-4871-96e1-eb0fa796ed83",
+      "kind": "header",
+      "text": "#### Coton de Tulear",
+      "verified": false
+    },
+    {
+      "id": "2f98d870-fd64-4e3b-93fd-738c8ec99a12",
+      "kind": "paragraph",
+      "text": "**Allergy-Friendly Features:**",
+      "verified": false
+    },
+    {
+      "id": "ffed855e-65fd-4e9d-a6aa-69fa090732c1",
+      "kind": "list",
+      "text": "- Cotton-like texture to coat\n- Minimal shedding\n- Low dander production",
+      "verified": false
+    },
+    {
+      "id": "647b7a9d-ba9a-4e3f-bc47-500761161f7b",
+      "kind": "paragraph",
+      "text": "**Lifestyle Compatibility:**",
+      "verified": false
+    },
+    {
+      "id": "4d3c7060-adb4-4922-ae4b-bb44f38d7ece",
+      "kind": "list",
+      "text": "- **Weight**: 8-15 pounds\n- **Exercise needs**: Short walks and play sessions\n- **Energy level**: Low to moderate\n- **Temperament**: Easygoing, adaptable, affectionate\n- **Considerations**: Daily brushing recommended; can be vocal",
+      "verified": false
+    },
+    {
+      "id": "a3aa4eb4-072f-4548-89db-4312ca4a9b16",
+      "kind": "header",
+      "text": "#### Basenji",
+      "verified": false
+    },
+    {
+      "id": "d44fe809-a555-48c4-a5eb-2ce5e2c601b2",
+      "kind": "paragraph",
+      "text": "**Allergy-Friendly Features:**",
+      "verified": false
+    },
+    {
+      "id": "a3cb36a0-a231-46a4-a6b3-0d870bd91397",
+      "kind": "list",
+      "text": "- Short coat with minimal shedding\n- Cat-like grooming habits reduce saliva-related allergens\n- Low dander production",
+      "verified": false
+    },
+    {
+      "id": "e5c01afc-838c-4594-894c-ecdc5a99d6fd",
+      "kind": "paragraph",
+      "text": "**Lifestyle Compatibility:**",
+      "verified": false
+    },
+    {
+      "id": "43dea8a9-f4ac-4d8b-8752-859948b6a9d3",
+      "kind": "list",
+      "text": "- **Weight**: 22-24 pounds\n- **Exercise needs**: 30-40 minutes daily, but calm indoors\n- **Energy level**: Moderate; known for being cat-like and independent\n- **Temperament**: Quiet (barkless), clean, independent\n- **Considerations**: Unique vocalizations; can be stubborn; requires mental stimulation",
+      "verified": false
+    },
+    {
+      "id": "37c132d3-a7ec-4950-8453-27d26633587b",
+      "kind": "header",
+      "text": "### Larger Breeds (Lower Energy Lines)",
+      "verified": false
+    },
+    {
+      "id": "75acdec6-2149-410f-aa0b-533eb0d3eed7",
+      "kind": "header",
+      "text": "#### Portuguese Water Dog",
+      "verified": false
+    },
+    {
+      "id": "1711e008-1b35-41fb-bd76-58a2a6cea32b",
+      "kind": "paragraph",
+      "text": "**Allergy-Friendly Features:**",
+      "verified": false
+    },
+    {
+      "id": "4a169da5-6023-468f-84ac-2a6386016af8",
+      "kind": "list",
+      "text": "- Single-layer, non-shedding coat\n- Minimal dander\n- Hypoallergenic reputation (famously owned by the Obama family)",
+      "verified": false
+    },
+    {
+      "id": "a2201d2f-196c-4513-bf60-ebbc53aa48fa",
+      "kind": "paragraph",
+      "text": "**Lifestyle Compatibility:**",
+      "verified": false
+    },
+    {
+      "id": "47884889-022f-4b19-b4ce-e6db09343c2a",
+      "kind": "list",
+      "text": "- **Weight**: 35-60 pounds\n- **Exercise needs**: 30-45 minutes daily; adaptable to moderate activity\n- **Energy level**: Moderate to high (select from lower-energy breeding lines)\n- **Temperament**: Gentle, trainable, loyal\n- **Considerations**: Requires regular grooming; benefits from mental stimulation; higher energy than other options",
+      "verified": false
+    },
+    {
+      "id": "da6d5aed-1ae9-4784-8e5b-8bb51b27e976",
+      "kind": "header",
+      "text": "#### Soft-Coated Wheaten Terrier",
+      "verified": false
+    },
+    {
+      "id": "06deb201-2cbc-49d3-aaf0-9b0fc9aeb737",
+      "kind": "paragraph",
+      "text": "**Allergy-Friendly Features:**",
+      "verified": false
+    },
+    {
+      "id": "ee6c3aea-98b8-4f28-8bfb-047e23d605c9",
+      "kind": "list",
+      "text": "- Silky, single coat without shedding\n- Low allergen production\n- No undercoat",
+      "verified": false
+    },
+    {
+      "id": "581a407c-3e15-4103-be08-3f7ec754a691",
+      "kind": "paragraph",
+      "text": "**Lifestyle Compatibility:**",
+      "verified": false
+    },
+    {
+      "id": "5212c52a-ba31-43f9-ab7c-865eb7929f0d",
+      "kind": "list",
+      "text": "- **Weight**: 30-40 pounds\n- **Exercise needs**: 30-40 minutes daily\n- **Energy level**: Moderate; calmer than most terriers\n- **Temperament**: Friendly, steady, less intense than typical terriers\n- **Considerations**: Requires regular grooming; can be headstrong",
+      "verified": false
+    },
+    {
+      "id": "06d20882-f3ba-4627-8581-305ff7c0b30f",
+      "kind": "header",
+      "text": "## Additional Considerations",
+      "verified": false
+    },
+    {
+      "id": "d1639c21-06c7-48df-a771-4a034b26573c",
+      "kind": "header",
+      "text": "### Grooming Requirements",
+      "verified": false
+    },
+    {
+      "id": "c61cdaac-de41-438a-a651-feefd39d9a3a",
+      "kind": "paragraph",
+      "text": "Low-shedding breeds typically require more intensive grooming:",
+      "verified": false
+    },
+    {
+      "id": "95f6ce50-8773-4386-849b-2e977cbd2ebc",
+      "kind": "list",
+      "text": "- **Professional grooming**: Every 4-8 weeks depending on breed\n- **Daily brushing**: Prevents matting and reduces dander buildup\n- **Regular bathing**: Reduces allergen accumulation (every 2-4 weeks)\n- **Cost consideration**: Budget $50-100 per grooming session",
+      "verified": false
+    },
+    {
+      "id": "693bd894-1019-4f6e-95db-735d8727c534",
+      "kind": "header",
+      "text": "### Allergen Reduction Strategies",
+      "verified": false
+    },
+    {
+      "id": "73381dc0-1f14-45f3-835e-229197c2edfe",
+      "kind": "paragraph",
+      "text": "Beyond breed selection, implement these practices:",
+      "verified": false
+    },
+    {
+      "id": "2a2d9187-6d3b-456e-bc11-11abf4a852df",
+      "kind": "list",
+      "text": "- **HEPA filtration**: Air purifiers in main living areas\n- **Regular cleaning**: Vacuum with HEPA filter 2-3 times weekly\n- **Designated zones**: Keep bedroom dog-free if possible\n- **Hand washing**: After petting or handling\n- **Washable surfaces**: Avoid carpet where possible; use washable dog bedding",
+      "verified": false
+    },
+    {
+      "id": "686d500d-2fa7-40a3-8560-e20eef9fc2cd",
+      "kind": "header",
+      "text": "### Testing Before Commitment",
+      "verified": false
+    },
+    {
+      "id": "cf46a0ab-0f86-4acc-ac25-e84875589fa7",
+      "kind": "list",
+      "text": "- Spend time with the specific breed before adopting\n- Visit breeders or foster homes multiple times\n- Understand that individual dogs within breeds vary in allergen production\n- Consider fostering before permanent adoption\n- Consult with allergist about management strategies",
+      "verified": false
+    },
+    {
+      "id": "1ff0377f-49a5-44c9-bfb2-926ffa9b5706",
+      "kind": "header",
+      "text": "### Age and Energy Level Considerations",
+      "verified": false
+    },
+    {
+      "id": "6dadf627-3d20-470b-99aa-04c28b4c214e",
+      "kind": "list",
+      "text": "- **Puppies**: Higher energy regardless of breed; consider adult or senior dogs\n- **Adults (2-7 years)**: Established temperament and energy level\n- **Seniors (7+ years)**: Typically calmer, lower exercise needs, may have health considerations",
+      "verified": false
+    },
+    {
+      "id": "5cd63a1e-4b3a-4afe-ba4a-e38a52414e25",
+      "kind": "header",
+      "text": "## Health and Longevity",
+      "verified": false
+    },
+    {
+      "id": "143eff34-389f-4abe-9d7f-cac094f93756",
+      "kind": "header",
+      "text": "### Common Health Considerations",
+      "verified": false
+    },
+    {
+      "id": "73e84382-5245-492c-bc6a-4ade8ca23d65",
+      "kind": "paragraph",
+      "text": "Many hypoallergenic breeds share certain predispositions:",
+      "verified": false
+    },
+    {
+      "id": "64cced21-aae3-4594-a99f-5065654d998c",
+      "kind": "list",
+      "text": "- **Dental issues**: Small breeds especially prone\n- **Eye problems**: Breeds with facial folds or prominent eyes\n- **Joint issues**: Larger breeds may develop hip dysplasia\n- **Skin conditions**: Regular grooming helps identify early",
+      "verified": false
+    },
+    {
+      "id": "d2eaa6bb-6898-43ec-8084-9a201eb3705a",
+      "kind": "header",
+      "text": "### Expected Lifespan",
+      "verified": false
+    },
+    {
+      "id": "2b599dea-9cbb-4da5-b5ef-fdedfa541c54",
+      "kind": "list",
+      "text": "- **Small breeds**: 12-16 years typically\n- **Medium breeds**: 10-14 years typically\n- **Larger breeds**: 10-13 years typically",
+      "verified": false
+    },
+    {
+      "id": "6ed4e8da-6b6a-41d1-a433-fe2d6acca60c",
+      "kind": "header",
+      "text": "## Cost Considerations",
+      "verified": false
+    },
+    {
+      "id": "a4ca55c6-2f04-4e70-ac89-fb159e6e6361",
+      "kind": "header",
+      "text": "### Initial Costs",
+      "verified": false
+    },
+    {
+      "id": "06acf74c-160b-49c5-9473-ac1832288ca2",
+      "kind": "list",
+      "text": "- **Adoption/purchase**: $500-$3,000+ depending on source and breed\n- **Initial supplies**: $200-500 (crate, bedding, bowls, etc.)\n- **Initial veterinary**: $200-400 (examination, vaccines, spay/neuter if needed)",
+      "verified": false
+    },
+    {
+      "id": "728cf282-b8e1-41eb-9066-5fc03872bb5f",
+      "kind": "header",
+      "text": "### Ongoing Annual Costs",
+      "verified": false
+    },
+    {
+      "id": "8649d007-f922-4af4-a1e1-9285d2fba573",
+      "kind": "list",
+      "text": "- **Food**: $300-800 (depending on size and quality)\n- **Grooming**: $600-1,200 (professional services)\n- **Veterinary care**: $300-600 (routine care, not including emergencies)\n- **Supplies**: $200-400 (toys, treats, replacements)\n- **Insurance** (optional): $300-600",
+      "verified": false
+    },
+    {
+      "id": "afb69a14-c0b3-4839-9bb6-81cf1de091dd",
+      "kind": "header",
+      "text": "## Making the Final Decision",
+      "verified": false
+    },
+    {
+      "id": "e3134594-b689-4767-b84f-118ba8b219ec",
+      "kind": "header",
+      "text": "### Top Recommendations by Priority",
+      "verified": false
+    },
+    {
+      "id": "384d5f65-2127-4d7c-8934-cf4db0249698",
+      "kind": "paragraph",
+      "text": "**Best for severe allergies + sedentary lifestyle:**",
+      "verified": false
+    },
+    {
+      "id": "ca251e31-9ec8-41b7-b899-795537747ccb",
+      "kind": "list",
+      "text": "1. Maltese\n2. Bichon Frise\n3. Miniature Poodle",
+      "verified": false
+    },
+    {
+      "id": "30fe6705-bde9-4593-875b-584f2f71de06",
+      "kind": "paragraph",
+      "text": "**Best for moderate allergies + some activity:**",
+      "verified": false
+    },
+    {
+      "id": "95b8b0c5-c46f-48ac-9633-e8a122df3508",
+      "kind": "list",
+      "text": "1. Shih Tzu\n2. Havanese\n3. Coton de Tulear",
+      "verified": false
+    },
+    {
+      "id": "d2dab3f7-da23-4111-b9ff-3675d22f3e94",
+      "kind": "paragraph",
+      "text": "**Best for mild allergies + desire for medium-sized dog:**",
+      "verified": false
+    },
+    {
+      "id": "25f5512b-917e-4a44-8b78-fb7f9fd19c54",
+      "kind": "list",
+      "text": "1. Miniature or Standard Poodle\n2. Soft-Coated Wheaten Terrier\n3. Basenji",
+      "verified": false
+    },
+    {
+      "id": "7278f673-0d64-4c98-b37f-8236746af2b4",
+      "kind": "header",
+      "text": "### Questions to Ask Yourself",
+      "verified": false
+    },
+    {
+      "id": "d04de3e3-a5b9-4204-8afe-ed2138001cf7",
+      "kind": "list",
+      "text": "- What size dog fits your living space?\n- Can you commit to regular professional grooming?\n- Do you prefer independent or velcro dog temperament?\n- What is your realistic daily time commitment for exercise?\n- Are you home most of the time or away for work?\n- What is your budget for ongoing care?",
+      "verified": false
+    },
+    {
+      "id": "f025c57e-3901-4fbc-9dbc-1976abcd570c",
+      "kind": "header",
+      "text": "## Conclusion",
+      "verified": false
+    },
+    {
+      "id": "92c1a86e-7cb0-477d-beb2-f6396174f670",
+      "kind": "paragraph",
+      "text": "Selecting a dog breed that accommodates both allergies and a sedentary lifestyle requires balancing hypoallergenic characteristics with low exercise requirements. The breeds outlined in this document offer proven track records for allergy sufferers while requiring minimal physical activity. Success depends not only on breed selection but also on implementing allergen-reduction strategies, committing to regular grooming, and choosing an individual dog whose temperament aligns with your specific lifestyle.",
+      "verified": false
+    },
+    {
+      "id": "a220c968-ee80-457e-b9f2-09f12e381ab7",
+      "kind": "paragraph",
+      "text": "Always spend time with a breed before committing, consult with healthcare providers about allergy management, and consider adopting adult dogs whose temperament and allergen production levels are already established.",
+      "verified": false
+    }
+  ],
+  "markdown": "# Hypoallergenic Dog Breeds for Sedentary Lifestyles\n\n## Overview\n\nThis document provides guidance on selecting dog breeds suitable for individuals with allergies who maintain a more sedentary lifestyle. The ideal companion dogs for this demographic combine low-shedding characteristics (which reduce allergen exposure) with moderate to low exercise requirements.\n\n## Understanding Dog Allergies\n\n### Allergen Sources\n\nDog allergies are not actually triggered by fur, but rather by:\n\n- **Dander**: Dead skin cells that flake off and become airborne\n- **Saliva proteins**: Transferred to fur during grooming\n- **Urine proteins**: Can become airborne when dried\n\n### The \"Hypoallergenic\" Myth\n\nNo dog breed is truly 100% hypoallergenic. However, certain breeds produce fewer allergens or shed less, which minimizes allergen distribution throughout the home.\n\n## Key Criteria for Selection\n\n### Low-Shedding Characteristics\n\n- Single-coat breeds\n- Hair rather than fur (similar to human hair growth patterns)\n- Minimal seasonal coat changes\n- Reduced dander production\n\n### Low to Moderate Exercise Needs\n\n- Comfortable with 20-30 minutes of daily activity\n- Content with indoor play and mental stimulation\n- Not prone to destructive behavior when sedentary\n- Adaptable to apartment or home living\n\n## Recommended Breeds\n\n### Small Breeds\n\n#### Bichon Frise\n\n**Allergy-Friendly Features:**\n\n- Minimal shedding with curly, dense coat\n- Low dander production\n- Requires regular grooming (every 4-6 weeks)\n\n**Lifestyle Compatibility:**\n\n- **Weight**: 12-18 pounds\n- **Exercise needs**: 20-30 minutes daily\n- **Energy level**: Moderate; content with indoor play\n- **Temperament**: Gentle, cheerful, adaptable\n- **Considerations**: Requires professional grooming; prone to separation anxiety\n\n#### Maltese\n\n**Allergy-Friendly Features:**\n\n- Long, silky hair without an undercoat\n- Minimal shedding\n- Small size reduces overall allergen production\n\n**Lifestyle Compatibility:**\n\n- **Weight**: 4-7 pounds\n- **Exercise needs**: Short daily walks sufficient\n- **Energy level**: Low to moderate\n- **Temperament**: Affectionate, calm, lap dog tendencies\n- **Considerations**: Daily brushing required; fragile due to small size\n\n#### Shih Tzu\n\n**Allergy-Friendly Features:**\n\n- Hair-like coat with minimal shedding\n- Low dander levels when properly groomed\n- Hypoallergenic reputation among toy breeds\n\n**Lifestyle Compatibility:**\n\n- **Weight**: 9-16 pounds\n- **Exercise needs**: Short walks and indoor play\n- **Energy level**: Low to moderate\n- **Temperament**: Companionable, calm, bred specifically as lap dogs\n- **Considerations**: Requires regular grooming; potential breathing issues due to flat face\n\n#### Havanese\n\n**Allergy-Friendly Features:**\n\n- Silky coat with minimal shedding\n- Low dander production\n- Single-layer coat\n\n**Lifestyle Compatibility:**\n\n- **Weight**: 7-13 pounds\n- **Exercise needs**: 20-30 minutes daily\n- **Energy level**: Moderate but adaptable\n- **Temperament**: Social, gentle, velcro dog tendencies\n- **Considerations**: Needs regular brushing; thrives on human companionship\n\n### Medium Breeds\n\n#### Poodle (Miniature and Standard)\n\n**Allergy-Friendly Features:**\n\n- Curly, non-shedding coat\n- Consistently rated among best breeds for allergies\n- Hair grows continuously like human hair\n\n**Lifestyle Compatibility:**\n\n- **Weight**: Miniature (15-17 lbs), Standard (45-70 lbs)\n- **Exercise needs**: Miniature requires less than Standard; 30-40 minutes daily\n- **Energy level**: Moderate; intelligent and satisfied with mental stimulation\n- **Temperament**: Highly trainable, calm when exercised, versatile\n- **Considerations**: Requires grooming every 6-8 weeks; highly intelligent and may need mental enrichment\n\n#### Coton de Tulear\n\n**Allergy-Friendly Features:**\n\n- Cotton-like texture to coat\n- Minimal shedding\n- Low dander production\n\n**Lifestyle Compatibility:**\n\n- **Weight**: 8-15 pounds\n- **Exercise needs**: Short walks and play sessions\n- **Energy level**: Low to moderate\n- **Temperament**: Easygoing, adaptable, affectionate\n- **Considerations**: Daily brushing recommended; can be vocal\n\n#### Basenji\n\n**Allergy-Friendly Features:**\n\n- Short coat with minimal shedding\n- Cat-like grooming habits reduce saliva-related allergens\n- Low dander production\n\n**Lifestyle Compatibility:**\n\n- **Weight**: 22-24 pounds\n- **Exercise needs**: 30-40 minutes daily, but calm indoors\n- **Energy level**: Moderate; known for being cat-like and independent\n- **Temperament**: Quiet (barkless), clean, independent\n- **Considerations**: Unique vocalizations; can be stubborn; requires mental stimulation\n\n### Larger Breeds (Lower Energy Lines)\n\n#### Portuguese Water Dog\n\n**Allergy-Friendly Features:**\n\n- Single-layer, non-shedding coat\n- Minimal dander\n- Hypoallergenic reputation (famously owned by the Obama family)\n\n**Lifestyle Compatibility:**\n\n- **Weight**: 35-60 pounds\n- **Exercise needs**: 30-45 minutes daily; adaptable to moderate activity\n- **Energy level**: Moderate to high (select from lower-energy breeding lines)\n- **Temperament**: Gentle, trainable, loyal\n- **Considerations**: Requires regular grooming; benefits from mental stimulation; higher energy than other options\n\n#### Soft-Coated Wheaten Terrier\n\n**Allergy-Friendly Features:**\n\n- Silky, single coat without shedding\n- Low allergen production\n- No undercoat\n\n**Lifestyle Compatibility:**\n\n- **Weight**: 30-40 pounds\n- **Exercise needs**: 30-40 minutes daily\n- **Energy level**: Moderate; calmer than most terriers\n- **Temperament**: Friendly, steady, less intense than typical terriers\n- **Considerations**: Requires regular grooming; can be headstrong\n\n## Additional Considerations\n\n### Grooming Requirements\n\nLow-shedding breeds typically require more intensive grooming:\n\n- **Professional grooming**: Every 4-8 weeks depending on breed\n- **Daily brushing**: Prevents matting and reduces dander buildup\n- **Regular bathing**: Reduces allergen accumulation (every 2-4 weeks)\n- **Cost consideration**: Budget $50-100 per grooming session\n\n### Allergen Reduction Strategies\n\nBeyond breed selection, implement these practices:\n\n- **HEPA filtration**: Air purifiers in main living areas\n- **Regular cleaning**: Vacuum with HEPA filter 2-3 times weekly\n- **Designated zones**: Keep bedroom dog-free if possible\n- **Hand washing**: After petting or handling\n- **Washable surfaces**: Avoid carpet where possible; use washable dog bedding\n\n### Testing Before Commitment\n\n- Spend time with the specific breed before adopting\n- Visit breeders or foster homes multiple times\n- Understand that individual dogs within breeds vary in allergen production\n- Consider fostering before permanent adoption\n- Consult with allergist about management strategies\n\n### Age and Energy Level Considerations\n\n- **Puppies**: Higher energy regardless of breed; consider adult or senior dogs\n- **Adults (2-7 years)**: Established temperament and energy level\n- **Seniors (7+ years)**: Typically calmer, lower exercise needs, may have health considerations\n\n## Health and Longevity\n\n### Common Health Considerations\n\nMany hypoallergenic breeds share certain predispositions:\n\n- **Dental issues**: Small breeds especially prone\n- **Eye problems**: Breeds with facial folds or prominent eyes\n- **Joint issues**: Larger breeds may develop hip dysplasia\n- **Skin conditions**: Regular grooming helps identify early\n\n### Expected Lifespan\n\n- **Small breeds**: 12-16 years typically\n- **Medium breeds**: 10-14 years typically\n- **Larger breeds**: 10-13 years typically\n\n## Cost Considerations\n\n### Initial Costs\n\n- **Adoption/purchase**: $500-$3,000+ depending on source and breed\n- **Initial supplies**: $200-500 (crate, bedding, bowls, etc.)\n- **Initial veterinary**: $200-400 (examination, vaccines, spay/neuter if needed)\n\n### Ongoing Annual Costs\n\n- **Food**: $300-800 (depending on size and quality)\n- **Grooming**: $600-1,200 (professional services)\n- **Veterinary care**: $300-600 (routine care, not including emergencies)\n- **Supplies**: $200-400 (toys, treats, replacements)\n- **Insurance** (optional): $300-600\n\n## Making the Final Decision\n\n### Top Recommendations by Priority\n\n**Best for severe allergies + sedentary lifestyle:**\n\n1. Maltese\n2. Bichon Frise\n3. Miniature Poodle\n\n**Best for moderate allergies + some activity:**\n\n1. Shih Tzu\n2. Havanese\n3. Coton de Tulear\n\n**Best for mild allergies + desire for medium-sized dog:**\n\n1. Miniature or Standard Poodle\n2. Soft-Coated Wheaten Terrier\n3. Basenji\n\n### Questions to Ask Yourself\n\n- What size dog fits your living space?\n- Can you commit to regular professional grooming?\n- Do you prefer independent or velcro dog temperament?\n- What is your realistic daily time commitment for exercise?\n- Are you home most of the time or away for work?\n- What is your budget for ongoing care?\n\n## Conclusion\n\nSelecting a dog breed that accommodates both allergies and a sedentary lifestyle requires balancing hypoallergenic characteristics with low exercise requirements. The breeds outlined in this document offer proven track records for allergy sufferers while requiring minimal physical activity. Success depends not only on breed selection but also on implementing allergen-reduction strategies, committing to regular grooming, and choosing an individual dog whose temperament aligns with your specific lifestyle.\n\nAlways spend time with a breed before committing, consult with healthcare providers about allergy management, and consider adopting adult dogs whose temperament and allergen production levels are already established."
+}
