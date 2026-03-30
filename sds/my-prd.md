@@ -1,4 +1,4 @@
-# The Mischievous Adventures of Curious George
+# The Mysterious Adventures of Curious George
 
 ## The Little Monkey's Adventure
 
