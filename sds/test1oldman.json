@@ -1,7 +1,7 @@
 {
   "version": 1,
   "slug": "test1oldman",
-  "updatedAt": "2026-03-30T02:46:06.798Z",
+  "updatedAt": "2026-03-30T02:55:51.665Z",
   "branch": "main",
   "blocks": [
     {
@@ -16,7 +16,9 @@
       "id": "7e61398e-8308-4b52-b426-0f9773660774",
       "kind": "header",
       "text": "## A Story of Transformation",
-      "verified": false
+      "verified": true,
+      "verifiedAt": "2026-03-30T02:55:51.665Z",
+      "verifiedBy": "cameronjaede-coder"
     },
     {
       "id": "217aae4b-2828-4761-9a00-c54be376ab83",
