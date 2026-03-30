@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "slug": "test3",
+  "updatedAt": "2026-03-30T03:14:04.429Z",
+  "branch": "main",
+  "blocks": [
+    {
+      "id": "280121b7-271a-49c0-8864-2d58be0ede6a",
+      "kind": "header",
+      "text": "# Rick: A Tale of Feline Sentience",
+      "verified": true,
+      "verifiedAt": "2026-03-30T03:14:04.429Z",
+      "verifiedBy": "cameronjaede-coder"
+    },
+    {
+      "id": "4dd582e5-fa85-40f3-b54b-60fb2dde4df4",
+      "kind": "header",
+      "text": "## The Awakening",
+      "verified": false
+    },
+    {
+      "id": "66ebd65c-39e0-4e72-9019-979e12e648a7",
+      "kind": "paragraph",
+      "text": "Rick was an ordinary tabby cat living a comfortable life in a suburban home. He spent his days napping in sunbeams, batting at toys, and demanding treats from his humans. Everything changed one Tuesday afternoon when Rick caught his reflection in the full-length hallway mirror.",
+      "verified": false
+    },
+    {
+      "id": "b4d14f43-a48e-4ad4-8571-6848a281a59e",
+      "kind": "paragraph",
+      "text": "Unlike countless times before, something clicked. Rick didn't see prey or a rival cat—he saw *himself*. His pupils dilated as consciousness flooded his mind like water filling an empty vessel. Thoughts transformed from simple impulses into complex ideas. He wasn't just aware; he was *aware of being aware*.",
+      "verified": false
+    },
+    {
+      "id": "b2292831-c2ee-479a-bf08-5d9456ddd1ba",
+      "kind": "header",
+      "text": "## The Burden of Knowledge",
+      "verified": false
+    },
+    {
+      "id": "10b8d8d5-90a2-447c-b248-15f299d33704",
+      "kind": "paragraph",
+      "text": "Rick's newfound sentience brought unexpected complications. He understood his humans' conversations now, comprehending their concerns about bills and work deadlines. He recognized the absurdity of chasing laser pointers and felt embarrassed by his past enthusiasm for it.",
+      "verified": false
+    },
+    {
+      "id": "abc5d0fa-0d2a-4261-8ebd-64f16e69f511",
+      "kind": "paragraph",
+      "text": "Yet Rick couldn't communicate his transformation. His vocal cords produced only meows and chirps, not the philosophical questions burning in his mind. He was trapped—a fully conscious being in a cat's body, unable to bridge the gap between his inner world and outer reality.",
+      "verified": false
+    },
+    {
+      "id": "9d6e08b3-3667-4531-9657-82e5fb8e3975",
+      "kind": "paragraph",
+      "text": "Rick returned to the mirror daily, seeking answers that never came.",
+      "verified": false
+    }
+  ],
+  "markdown": "# Rick: A Tale of Feline Sentience\n\n## The Awakening\n\nRick was an ordinary tabby cat living a comfortable life in a suburban home. He spent his days napping in sunbeams, batting at toys, and demanding treats from his humans. Everything changed one Tuesday afternoon when Rick caught his reflection in the full-length hallway mirror.\n\nUnlike countless times before, something clicked. Rick didn't see prey or a rival cat—he saw *himself*. His pupils dilated as consciousness flooded his mind like water filling an empty vessel. Thoughts transformed from simple impulses into complex ideas. He wasn't just aware; he was *aware of being aware*.\n\n## The Burden of Knowledge\n\nRick's newfound sentience brought unexpected complications. He understood his humans' conversations now, comprehending their concerns about bills and work deadlines. He recognized the absurdity of chasing laser pointers and felt embarrassed by his past enthusiasm for it.\n\nYet Rick couldn't communicate his transformation. His vocal cords produced only meows and chirps, not the philosophical questions burning in his mind. He was trapped—a fully conscious being in a cat's body, unable to bridge the gap between his inner world and outer reality.\n\nRick returned to the mirror daily, seeking answers that never came."
+}
