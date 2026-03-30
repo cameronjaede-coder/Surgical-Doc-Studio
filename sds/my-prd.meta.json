@@ -1,7 +1,7 @@
 {
   "slug": "my-prd",
   "branch": "main",
-  "exportedAt": "2026-03-30T18:57:07.856Z",
+  "exportedAt": "2026-03-30T18:57:16.248Z",
   "verifiedOnly": false,
   "exportedBlockIds": [
     "4ef07267-a930-480e-840a-a78185fbbfb6",
@@ -24,8 +24,10 @@
     {
       "id": "4ef07267-a930-480e-840a-a78185fbbfb6",
       "kind": "header",
-      "text": "# The Mischievous Adventures of (test) Curious George",
-      "verified": false
+      "text": "# The Mischievous Adventures of Curious George",
+      "verified": true,
+      "verifiedAt": "2026-03-30T18:57:15.472Z",
+      "verifiedBy": "cameronjaede-coder"
     },
     {
       "id": "9de29961-a1e9-4f18-a224-2ffff6aec656",
