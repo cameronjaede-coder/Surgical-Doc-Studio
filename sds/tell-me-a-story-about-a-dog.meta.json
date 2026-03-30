@@ -1,7 +1,7 @@
 {
   "slug": "tell-me-a-story-about-a-dog",
   "branch": "main",
-  "exportedAt": "2026-03-30T20:50:24.683Z",
+  "exportedAt": "2026-03-30T20:50:32.480Z",
   "verifiedOnly": false,
   "exportedBlockIds": [
     "3036859e-266b-4f62-8bbc-7093cc1b215d",
@@ -150,13 +150,17 @@
       "id": "25a43122-12ee-41ea-9ad8-2b1c9b4cbea2",
       "kind": "header",
       "text": "## Overview",
-      "verified": false
+      "verified": true,
+      "verifiedAt": "2026-03-30T20:50:31.681Z",
+      "verifiedBy": "cameronjaede-coder"
     },
     {
       "id": "f6adad17-69a3-4116-bb33-11da453062a8",
       "kind": "paragraph",
       "text": "This is the story of Shadow, a three-year-old Border Collie mix who became separated from his family during a camping trip in the Pacific Northwest and embarked on an extraordinary 200-mile journey to find his way home.",
-      "verified": false
+      "verified": true,
+      "verifiedAt": "2026-03-30T20:50:31.681Z",
+      "verifiedBy": "cameronjaede-coder"
     },
     {
       "id": "3522d1db-b575-439a-8f76-79327838aa90",
