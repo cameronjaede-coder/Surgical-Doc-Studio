@@ -1,0 +1,180 @@
+{
+  "slug": "slugs test",
+  "branch": "main",
+  "exportedAt": "2026-03-30T16:14:49.870Z",
+  "verifiedOnly": false,
+  "exportedBlockIds": [
+    "3ed96b3b-8837-49d8-9c6a-3a4ed10cc6aa",
+    "4f6484aa-4268-4009-96ac-f4a7e794789b",
+    "85788687-0d10-4114-ac57-d21c90855c7d",
+    "03e44ea8-1c97-41fd-a85a-3cb0550c52b4",
+    "46309a39-dbea-4450-a365-13c034d07a9a",
+    "906e987c-200d-45a0-8bed-9254d6e6a42b",
+    "33a51d4c-795b-478f-8c1f-6c885f7c2522",
+    "04552f9d-9205-453b-857e-d36742e2bc9b",
+    "e8fa35b9-d48e-4cb6-87d8-8bed4b1350df",
+    "ea114787-ef1d-4f7c-9d38-5451ec98f14b",
+    "3ddc7bc9-fa91-4d6b-a402-0798ce073b2f",
+    "e6a76ca5-a57e-481b-94c7-71fb516b0c32",
+    "3d64b3a1-dd7e-416f-995e-0029abbc97c6",
+    "1b4d79ba-d519-4b1d-876c-58a9212a9f13",
+    "94e6b9ea-a6b1-4f44-a776-99e4547e828b",
+    "07e95807-11bc-485b-b8ed-3a6a7c98dbcb",
+    "d4a35a9d-e49e-4bab-8099-47a317162bd1",
+    "350cb10c-c7a3-496a-bc3f-fca5a19eede4",
+    "bab7bb54-586a-425d-99f4-40949ef3afc6",
+    "1133da33-8863-40c5-a5e9-87c0d76f7676",
+    "7b02639e-9825-4aaf-8ed3-bdccf5dcaaca",
+    "99ffe3d1-162d-4752-8ab5-a7ffcf83bc9a",
+    "eb74c1c8-8847-48e8-b9d0-19a4dcf39f88",
+    "ff95362a-e0b7-4be3-a90c-df8fb71541b5"
+  ],
+  "blocks": [
+    {
+      "id": "3ed96b3b-8837-49d8-9c6a-3a4ed10cc6aa",
+      "kind": "header",
+      "text": "# Ode to the Slug: A Dual Nature",
+      "verified": false
+    },
+    {
+      "id": "4f6484aa-4268-4009-96ac-f4a7e794789b",
+      "kind": "header",
+      "text": "## I. Garden Dweller",
+      "verified": false
+    },
+    {
+      "id": "85788687-0d10-4114-ac57-d21c90855c7d",
+      "kind": "paragraph",
+      "text": "In moonlit gardens, slow they glide,\nSilver trails mark where they hide,\nSoft-bodied wanderers of the night,\nSeeking tender leaves by pale starlight.",
+      "verified": true,
+      "verifiedAt": "2026-03-30T16:14:45.634Z",
+      "verifiedBy": "cameronjaede-coder"
+    },
+    {
+      "id": "03e44ea8-1c97-41fd-a85a-3cb0550c52b4",
+      "kind": "paragraph",
+      "text": "No shell to bear upon their backs,\nThey navigate the garden tracks,\nWith gentle horns that taste the air,\nMoving forward, unaware.",
+      "verified": false
+    },
+    {
+      "id": "46309a39-dbea-4450-a365-13c034d07a9a",
+      "kind": "paragraph",
+      "text": "Muscular foot in rhythmic waves,\nThrough dewy grass and leafy caves,\nPatient hunters of decay,\nComposting as they make their way.",
+      "verified": false
+    },
+    {
+      "id": "906e987c-200d-45a0-8bed-9254d6e6a42b",
+      "kind": "paragraph",
+      "text": "Gardeners curse their appetite,\nFor precious blooms they feast at night,\nYet ecosystems need them so,\nTo break down what must decompose and go.",
+      "verified": false
+    },
+    {
+      "id": "33a51d4c-795b-478f-8c1f-6c885f7c2522",
+      "kind": "header",
+      "text": "## II. Digital Denizen",
+      "verified": false
+    },
+    {
+      "id": "04552f9d-9205-453b-857e-d36742e2bc9b",
+      "kind": "paragraph",
+      "text": "In databases and URLs,\nA different slug resides and dwells,\nA string of text, clean and lean,\nMaking web addresses readable and clean.",
+      "verified": false
+    },
+    {
+      "id": "e8fa35b9-d48e-4cb6-87d8-8bed4b1350df",
+      "kind": "paragraph",
+      "text": "Where spaces once would break the flow,\nHyphens help the text to go,\n`my-article-about-the-sea`\nSimple, searchable, and SEO-friendly.",
+      "verified": false
+    },
+    {
+      "id": "ea114787-ef1d-4f7c-9d38-5451ec98f14b",
+      "kind": "paragraph",
+      "text": "Lowercased and stripped of noise,\nSpecial characters it destroys,\nUnique identifiers in the code,\nHuman-readable on every road.",
+      "verified": false
+    },
+    {
+      "id": "3ddc7bc9-fa91-4d6b-a402-0798ce073b2f",
+      "kind": "paragraph",
+      "text": "From titles grand it takes its birth,\nTransformed to something of more worth,\n\"The Ultimate Guide to Python!\" becomes clear:\n`the-ultimate-guide-to-python` appears here.",
+      "verified": false
+    },
+    {
+      "id": "e6a76ca5-a57e-481b-94c7-71fb516b0c32",
+      "kind": "header",
+      "text": "## III. Convergence",
+      "verified": false
+    },
+    {
+      "id": "3d64b3a1-dd7e-416f-995e-0029abbc97c6",
+      "kind": "paragraph",
+      "text": "Both slugs share a common trait,\nThey simplify and navigate,\nOne through gardens, damp and dark,\nThe other through the digital park.",
+      "verified": false
+    },
+    {
+      "id": "1b4d79ba-d519-4b1d-876c-58a9212a9f13",
+      "kind": "paragraph",
+      "text": "The garden slug leaves trails of slime,\nThe code slug persists through time,\nBoth are humble, both are small,\nYet each serves purpose after all.",
+      "verified": false
+    },
+    {
+      "id": "94e6b9ea-a6b1-4f44-a776-99e4547e828b",
+      "kind": "paragraph",
+      "text": "In nature's web and networks wide,\nThe slugs persist—they both abide,\nOne feeds the soil with patient grace,\nOne helps us find our digital place.",
+      "verified": false
+    },
+    {
+      "id": "07e95807-11bc-485b-b8ed-3a6a7c98dbcb",
+      "kind": "paragraph",
+      "text": "So here's to slugs of every kind,\nThe slimy and the URL-defined,\nMay gardens grow and servers run,\nUntil the work of slugs is done.",
+      "verified": false
+    },
+    {
+      "id": "d4a35a9d-e49e-4bab-8099-47a317162bd1",
+      "kind": "paragraph",
+      "text": "---",
+      "verified": false
+    },
+    {
+      "id": "350cb10c-c7a3-496a-bc3f-fca5a19eede4",
+      "kind": "header",
+      "text": "## Technical Notes",
+      "verified": false
+    },
+    {
+      "id": "bab7bb54-586a-425d-99f4-40949ef3afc6",
+      "kind": "header",
+      "text": "### The Garden Slug",
+      "verified": false
+    },
+    {
+      "id": "1133da33-8863-40c5-a5e9-87c0d76f7676",
+      "kind": "list",
+      "text": "- **Classification**: Gastropod mollusks without shells\n- **Habitat**: Moist environments, gardens, forests\n- **Function**: Decomposers in ecosystems\n- **Movement**: Muscular contractions via pedal waves\n- **Notable feature**: Mucus secretion for locomotion and protection",
+      "verified": false
+    },
+    {
+      "id": "7b02639e-9825-4aaf-8ed3-bdccf5dcaaca",
+      "kind": "header",
+      "text": "### The URL Slug",
+      "verified": false
+    },
+    {
+      "id": "99ffe3d1-162d-4752-8ab5-a7ffcf83bc9a",
+      "kind": "list",
+      "text": "- **Definition**: URL-friendly string typically derived from a page title\n- **Purpose**: Human-readable identifiers in web addresses\n- **Common transformations**:\n  - Convert to lowercase\n  - Replace spaces with hyphens\n  - Remove special characters\n  - Ensure uniqueness\n- **Use cases**: Blog posts, product pages, category URLs\n- **SEO benefit**: Descriptive URLs improve search rankings and user trust",
+      "verified": false
+    },
+    {
+      "id": "eb74c1c8-8847-48e8-b9d0-19a4dcf39f88",
+      "kind": "header",
+      "text": "### Parallels",
+      "verified": false
+    },
+    {
+      "id": "ff95362a-e0b7-4be3-a90c-df8fb71541b5",
+      "kind": "paragraph",
+      "text": "Both entities optimize their respective domains through simplification and persistence, creating pathways others can follow.",
+      "verified": false
+    }
+  ]
+}
