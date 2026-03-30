@@ -1,19 +1,18 @@
-import { createAnthropic } from "@ai-sdk/anthropic";
 import { generateText } from "ai";
 import { NextResponse } from "next/server";
-
-const SYSTEM =
-  "You are in Surgical Mode. You receive a single document block and a user instruction. Return ONLY the modified block. Do not add explanation, preamble, or commentary. Return only the modified block. Do not alter tone, style, or content of surrounding context (there is no surrounding context in this request—only this block matters). Your entire response must be the rewritten block and nothing else.";
+import {
+  createLanguageModel,
+  resolveApiKeyForRequest,
+  surgicalSystemPrompt,
+  type AiProvider,
+} from "@/lib/ai/providers";
+import {
+  LEGACY_ANTHROPIC_MODEL_ID,
+  parseAiInlineRequest,
+} from "@/lib/ai/request-body";
 
 export async function POST(request: Request) {
   try {
-    if (!process.env.ANTHROPIC_API_KEY) {
-      return NextResponse.json(
-        { error: "ANTHROPIC_API_KEY is not configured." },
-        { status: 500 },
-      );
-    }
-
     let body: unknown;
     try {
       body = await request.json();
@@ -40,13 +39,44 @@ export async function POST(request: Request) {
       );
     }
 
-    const anthropic = createAnthropic({
-      apiKey: process.env.ANTHROPIC_API_KEY,
-    });
+    let provider: AiProvider;
+    let modelId: string;
+    let keyFromBody: string;
 
+    const parsed = parseAiInlineRequest(body);
+    if (parsed) {
+      ({ provider, modelId, apiKey: keyFromBody } = parsed);
+    } else {
+      const env = process.env.ANTHROPIC_API_KEY?.trim();
+      if (!env) {
+        return NextResponse.json(
+          {
+            error:
+              'No AI configuration. Add an API key in Settings (send "ai" in the body) or set ANTHROPIC_API_KEY.',
+          },
+          { status: 400 },
+        );
+      }
+      provider = "anthropic";
+      modelId = LEGACY_ANTHROPIC_MODEL_ID;
+      keyFromBody = "";
+    }
+
+    const apiKey = resolveApiKeyForRequest(provider, keyFromBody);
+    if (!apiKey) {
+      return NextResponse.json(
+        {
+          error:
+            "No API key for the selected provider. Add it in Settings or set ANTHROPIC_API_KEY for Claude.",
+        },
+        { status: 400 },
+      );
+    }
+
+    const model = createLanguageModel(provider, apiKey, modelId);
     const { text } = await generateText({
-      model: anthropic("claude-sonnet-4-5-20250929"),
-      system: SYSTEM,
+      model,
+      system: surgicalSystemPrompt(provider),
       prompt: `Block:\n\n${block}\n\nInstruction:\n\n${instruction}`,
       maxOutputTokens: 16_384,
     });

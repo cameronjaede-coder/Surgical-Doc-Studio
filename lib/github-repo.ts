@@ -1,20 +1,30 @@
 import { Octokit } from "octokit";
+import { parseRepo } from "@/lib/github/parse-repo";
 
-export function parseRepo(repoEnv: string): { owner: string; repo: string } | null {
-  const parts = repoEnv.trim().split("/").filter(Boolean);
-  if (parts.length !== 2) return null;
-  return { owner: parts[0], repo: parts[1] };
-}
+export { parseRepo } from "@/lib/github/parse-repo";
 
 export function normalizeSlug(slug: string): string {
-  return slug
+  let normalized = slug
     .trim()
-    .replace(/^\/+|\/+$/g, "")
     .replace(/\\/g, "/");
+
+  normalized = normalized.replace(/^\/+|\/+$/g, "");
+
+  // Allow users to paste full stored paths like "sds/my-doc.md".
+  if (normalized.startsWith("sds/")) {
+    normalized = normalized.slice(4);
+  }
+
+  // Accept either slug or markdown filename in the same input.
+  if (normalized.toLowerCase().endsWith(".md")) {
+    normalized = normalized.slice(0, -3);
+  }
+
+  return normalized.replace(/^\/+|\/+$/g, "");
 }
 
-export function jsonPathForSlug(slug: string): string {
-  return `sds/${normalizeSlug(slug)}.json`;
+export function markdownPathForSlug(slug: string): string {
+  return `sds/${normalizeSlug(slug)}.md`;
 }
 
 export function getOctokit(): Octokit {
@@ -50,6 +60,61 @@ export function requireRepoConfig(): {
   };
 }
 
+export type GithubConnectionOverride = {
+  repo: string;
+  branch: string;
+  token: string;
+};
+
+export function parseGithubOverrideFromUnknown(
+  raw: unknown,
+): GithubConnectionOverride | null {
+  if (!raw || typeof raw !== "object") return null;
+  const o = raw as Record<string, unknown>;
+  if (typeof o.repo !== "string" || typeof o.token !== "string") return null;
+  const repo = o.repo.trim();
+  const token = o.token.trim();
+  if (!repo || !token) return null;
+  const branchRaw = typeof o.branch === "string" ? o.branch.trim() : "";
+  const branch = branchRaw || "main";
+  return { repo, branch, token };
+}
+
+export function parseGithubOverrideFromHeaders(
+  request: Request,
+): GithubConnectionOverride | null {
+  const repo = request.headers.get("x-sds-github-repo")?.trim() ?? "";
+  const token = request.headers.get("x-sds-github-token")?.trim() ?? "";
+  if (!repo || !token) return null;
+  const branchHdr = request.headers.get("x-sds-github-branch")?.trim() ?? "";
+  const branch = branchHdr || "main";
+  return { repo, branch, token };
+}
+
+export function tryResolveGithubOverride(
+  override: GithubConnectionOverride | null,
+): { octokit: Octokit; owner: string; repo: string; branch: string } | null {
+  if (!override) return null;
+  const parsed = parseRepo(override.repo);
+  if (!parsed || !override.token.trim()) return null;
+  const branch = (override.branch || "main").trim() || "main";
+  return {
+    octokit: new Octokit({ auth: override.token.trim() }),
+    owner: parsed.owner,
+    repo: parsed.repo,
+    branch,
+  };
+}
+
+/** Use browser-provided repo/branch/token when valid; otherwise server env. */
+export function resolveGithubConnection(
+  override: GithubConnectionOverride | null,
+): { octokit: Octokit; owner: string; repo: string; branch: string } {
+  const resolved = tryResolveGithubOverride(override);
+  if (resolved) return resolved;
+  return requireRepoConfig();
+}
+
 export async function getGithubUserLogin(octokit: Octokit): Promise<string> {
   try {
     const { data } = await octokit.rest.users.getAuthenticated();
@@ -59,7 +124,7 @@ export async function getGithubUserLogin(octokit: Octokit): Promise<string> {
   }
 }
 
-export async function readDocumentJson(
+export async function readDocumentFile(
   octokit: Octokit,
   owner: string,
   repo: string,
@@ -91,19 +156,17 @@ export async function readDocumentJson(
   }
 }
 
-export async function writeDocumentJson(
+export async function writeDocumentFile(
   octokit: Octokit,
   owner: string,
   repo: string,
   branch: string,
   path: string,
-  contentObj: object,
+  contentRaw: string,
   message: string,
   sha?: string,
 ): Promise<{ commitUrl: string; htmlUrl: string | null }> {
-  const content = Buffer.from(JSON.stringify(contentObj, null, 2), "utf8").toString(
-    "base64",
-  );
+  const content = Buffer.from(contentRaw, "utf8").toString("base64");
   const { data } = await octokit.rest.repos.createOrUpdateFileContents({
     owner,
     repo,

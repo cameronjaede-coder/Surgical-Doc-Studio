@@ -1,20 +1,18 @@
-import { createAnthropic } from "@ai-sdk/anthropic";
 import { generateText } from "ai";
 import { NextResponse } from "next/server";
-
-const SYSTEM = `You write high-fidelity technical documents and PRDs in Markdown.
-Use ## and ### headings, normal paragraphs, and bullet or numbered lists where appropriate.
-Output ONLY the Markdown document. No preamble or explanation.`;
+import {
+  createLanguageModel,
+  generateSystemPrompt,
+  resolveApiKeyForRequest,
+  type AiProvider,
+} from "@/lib/ai/providers";
+import {
+  LEGACY_ANTHROPIC_MODEL_ID,
+  parseAiInlineRequest,
+} from "@/lib/ai/request-body";
 
 export async function POST(request: Request) {
   try {
-    if (!process.env.ANTHROPIC_API_KEY) {
-      return NextResponse.json(
-        { error: "ANTHROPIC_API_KEY is not configured." },
-        { status: 500 },
-      );
-    }
-
     let body: unknown;
     try {
       body = await request.json();
@@ -34,13 +32,44 @@ export async function POST(request: Request) {
       );
     }
 
-    const anthropic = createAnthropic({
-      apiKey: process.env.ANTHROPIC_API_KEY,
-    });
+    let provider: AiProvider;
+    let modelId: string;
+    let keyFromBody: string;
 
+    const parsed = parseAiInlineRequest(body);
+    if (parsed) {
+      ({ provider, modelId, apiKey: keyFromBody } = parsed);
+    } else {
+      const env = process.env.ANTHROPIC_API_KEY?.trim();
+      if (!env) {
+        return NextResponse.json(
+          {
+            error:
+              'No AI configuration. Add an API key in Settings (send "ai" in the body) or set ANTHROPIC_API_KEY.',
+          },
+          { status: 400 },
+        );
+      }
+      provider = "anthropic";
+      modelId = LEGACY_ANTHROPIC_MODEL_ID;
+      keyFromBody = "";
+    }
+
+    const apiKey = resolveApiKeyForRequest(provider, keyFromBody);
+    if (!apiKey) {
+      return NextResponse.json(
+        {
+          error:
+            "No API key for the selected provider. Add it in Settings or set ANTHROPIC_API_KEY for Claude.",
+        },
+        { status: 400 },
+      );
+    }
+
+    const model = createLanguageModel(provider, apiKey, modelId);
     const { text } = await generateText({
-      model: anthropic("claude-sonnet-4-5-20250929"),
-      system: SYSTEM,
+      model,
+      system: generateSystemPrompt(provider),
       prompt: `Draft a document about:\n\n${topic.trim()}`,
       maxOutputTokens: 8192,
     });

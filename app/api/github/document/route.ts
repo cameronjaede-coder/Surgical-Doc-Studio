@@ -1,15 +1,19 @@
 import { NextResponse } from "next/server";
-import type { SdsDocument } from "@/lib/sds/types";
+import { parseDocumentToBlocks } from "@/lib/sds/parse";
+import { mergeVerificationFromAuditSidecar } from "@/lib/sds/merge-meta-verification";
 import {
-  jsonPathForSlug,
+  markdownPathForSlug,
   normalizeSlug,
-  readDocumentJson,
-  requireRepoConfig,
+  parseGithubOverrideFromHeaders,
+  readDocumentFile,
+  resolveGithubConnection,
 } from "@/lib/github-repo";
 
 export async function GET(request: Request) {
   try {
-    const { octokit, owner, repo, branch } = requireRepoConfig();
+    const githubOverride = parseGithubOverrideFromHeaders(request);
+    const { octokit, owner, repo, branch } =
+      resolveGithubConnection(githubOverride);
     const { searchParams } = new URL(request.url);
     const slug = searchParams.get("slug");
 
@@ -20,8 +24,8 @@ export async function GET(request: Request) {
       );
     }
 
-    const path = jsonPathForSlug(slug);
-    const existing = await readDocumentJson(octokit, owner, repo, branch, path);
+    const path = markdownPathForSlug(slug);
+    const existing = await readDocumentFile(octokit, owner, repo, branch, path);
     if (!existing) {
       return NextResponse.json(
         { error: `No SDS document at ${path} on ${branch}.` },
@@ -29,24 +33,39 @@ export async function GET(request: Request) {
       );
     }
 
-    let doc: SdsDocument;
-    try {
-      doc = JSON.parse(existing.raw) as SdsDocument;
-    } catch {
-      return NextResponse.json(
-        { error: "Stored document is not valid JSON." },
-        { status: 502 },
-      );
-    }
+    const markdown = existing.raw;
+    const fresh = parseDocumentToBlocks(markdown).map((b) => ({
+      ...b,
+      verified: false as boolean,
+    }));
 
-    if (doc.version !== 1 || !Array.isArray(doc.blocks)) {
-      return NextResponse.json(
-        { error: "Unrecognized SDS document shape." },
-        { status: 502 },
-      );
+    const auditPath = `${path.replace(/\.md$/i, "")}.meta.json`;
+    const auditFile = await readDocumentFile(
+      octokit,
+      owner,
+      repo,
+      branch,
+      auditPath,
+    );
+    let auditJson: unknown = null;
+    if (auditFile?.raw) {
+      try {
+        auditJson = JSON.parse(auditFile.raw) as unknown;
+      } catch {
+        auditJson = null;
+      }
     }
+    const blocks = mergeVerificationFromAuditSidecar(fresh, auditJson);
 
-    return NextResponse.json({ document: doc, sha: existing.sha });
+    return NextResponse.json({
+      document: {
+        slug: normalizeSlug(slug),
+        branch,
+        markdown,
+        blocks,
+      },
+      sha: existing.sha,
+    });
   } catch (err) {
     const message =
       err instanceof Error ? err.message : "Failed to load document.";

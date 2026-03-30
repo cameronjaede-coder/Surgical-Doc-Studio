@@ -1,19 +1,21 @@
 import { NextResponse } from "next/server";
-import type { SdsBlock, SdsDocument } from "@/lib/sds/types";
-import { blocksToMarkdown } from "@/lib/sds/parse";
+import { parseDocumentToBlocks } from "@/lib/sds/parse";
 import {
-  jsonPathForSlug,
+  markdownPathForSlug,
   normalizeSlug,
-  readDocumentJson,
-  requireRepoConfig,
+  parseGithubOverrideFromHeaders,
+  readDocumentFile,
+  resolveGithubConnection,
 } from "@/lib/github-repo";
 
 /**
- * Pipeline endpoint: human-verified blocks only (specifications you can trust downstream).
+ * Pipeline endpoint from canonical markdown in GitHub.
  */
 export async function GET(request: Request) {
   try {
-    const { octokit, owner, repo, branch } = requireRepoConfig();
+    const githubOverride = parseGithubOverrideFromHeaders(request);
+    const { octokit, owner, repo, branch } =
+      resolveGithubConnection(githubOverride);
     const { searchParams } = new URL(request.url);
     const slug = searchParams.get("slug");
 
@@ -24,8 +26,8 @@ export async function GET(request: Request) {
       );
     }
 
-    const path = jsonPathForSlug(slug);
-    const existing = await readDocumentJson(octokit, owner, repo, branch, path);
+    const path = markdownPathForSlug(slug);
+    const existing = await readDocumentFile(octokit, owner, repo, branch, path);
     if (!existing) {
       return NextResponse.json(
         { error: `No SDS document at ${path}.` },
@@ -33,27 +35,18 @@ export async function GET(request: Request) {
       );
     }
 
-    let doc: SdsDocument;
-    try {
-      doc = JSON.parse(existing.raw) as SdsDocument;
-    } catch {
-      return NextResponse.json(
-        { error: "Stored document is not valid JSON." },
-        { status: 502 },
-      );
-    }
-
-    const verifiedBlocks: SdsBlock[] = doc.blocks.filter((b) => b.verified);
+    const markdown = existing.raw;
+    const blocks = parseDocumentToBlocks(markdown);
     const exportedAt = new Date().toISOString();
 
     return NextResponse.json({
       specification: {
-        slug: doc.slug,
+        slug: normalizeSlug(slug),
         branch,
         exportedAt,
-        blockCount: verifiedBlocks.length,
-        blocks: verifiedBlocks,
-        markdownVerifiedOnly: blocksToMarkdown(verifiedBlocks),
+        blockCount: blocks.length,
+        blocks,
+        markdown,
       },
     });
   } catch (err) {

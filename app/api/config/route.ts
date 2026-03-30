@@ -9,8 +9,5 @@ export async function GET() {
   return NextResponse.json({
     repo: parsed ? `${parsed.owner}/${parsed.repo}` : null,
     branch,
-    codaConfigured: Boolean(
-      process.env.CODA_API_TOKEN && process.env.CODA_DOC_ID,
-    ),
   });
 }

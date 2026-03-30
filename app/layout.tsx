@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Surgical Doc Studio",
   description:
-    "Block-level surgical edits, GitHub verification, and Coda export for documentation workflows.",
+    "Block-level surgical edits and GitHub-backed documentation workflows.",
 };
 
 export default function RootLayout({
