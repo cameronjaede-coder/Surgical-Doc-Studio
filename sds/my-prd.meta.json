@@ -1,7 +1,7 @@
 {
   "slug": "my-prd",
   "branch": "main",
-  "exportedAt": "2026-03-30T18:20:36.539Z",
+  "exportedAt": "2026-03-30T18:21:34.133Z",
   "verifiedOnly": false,
   "exportedBlockIds": [
     "4d9b88ff-51b2-46df-8c32-fcbfcd95d50a",
@@ -25,7 +25,9 @@
       "id": "4d9b88ff-51b2-46df-8c32-fcbfcd95d50a",
       "kind": "header",
       "text": "# A Poem About Curious George",
-      "verified": false
+      "verified": true,
+      "verifiedAt": "2026-03-30T18:21:33.452Z",
+      "verifiedBy": "cameronjaede-coder"
     },
     {
       "id": "044d9b04-7e6c-47ce-b353-0d14169b1a45",
