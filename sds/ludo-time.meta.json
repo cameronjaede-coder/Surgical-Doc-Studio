@@ -1,0 +1,47 @@
+{
+  "slug": "ludo-time",
+  "branch": "main",
+  "exportedAt": "2026-03-30T19:18:35.443Z",
+  "verifiedOnly": false,
+  "exportedBlockIds": [
+    "30930e22-3a00-4906-97af-da7cfabcbd47",
+    "4e4f61d9-b5f2-4cb9-b65e-0083cfff3b11",
+    "5640f4f5-b61d-4ac9-bcab-84835823cdbd",
+    "e4bf5e49-9218-4445-a05e-7e428b353eb5",
+    "675f114e-ef23-4497-bc1c-461e0c1ea876"
+  ],
+  "blocks": [
+    {
+      "id": "30930e22-3a00-4906-97af-da7cfabcbd47",
+      "kind": "header",
+      "text": "# My PRD",
+      "verified": false
+    },
+    {
+      "id": "4e4f61d9-b5f2-4cb9-b65e-0083cfff3b11",
+      "kind": "paragraph",
+      "text": "Here is a spec",
+      "verified": true,
+      "verifiedAt": "2026-03-30T19:18:34.651Z",
+      "verifiedBy": "cameronjaede-coder"
+    },
+    {
+      "id": "5640f4f5-b61d-4ac9-bcab-84835823cdbd",
+      "kind": "paragraph",
+      "text": "Here is another spec",
+      "verified": false
+    },
+    {
+      "id": "e4bf5e49-9218-4445-a05e-7e428b353eb5",
+      "kind": "header",
+      "text": "## This is a subsection my dude",
+      "verified": false
+    },
+    {
+      "id": "675f114e-ef23-4497-bc1c-461e0c1ea876",
+      "kind": "paragraph",
+      "text": "> And it has a quote",
+      "verified": false
+    }
+  ]
+}
