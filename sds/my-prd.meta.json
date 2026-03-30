@@ -1,7 +1,7 @@
 {
   "slug": "my-prd",
   "branch": "main",
-  "exportedAt": "2026-03-30T19:04:02.440Z",
+  "exportedAt": "2026-03-30T19:09:19.193Z",
   "verifiedOnly": false,
   "exportedBlockIds": [
     "9e625818-b982-4a9d-aac3-d83f63734f41",
@@ -53,7 +53,9 @@
       "id": "869ffdd2-a2aa-4d32-adaa-6c1d9a0955df",
       "kind": "header",
       "text": "### The Yellow Hat",
-      "verified": false
+      "verified": true,
+      "verifiedAt": "2026-03-30T19:09:18.478Z",
+      "verifiedBy": "cameronjaede-coder"
     },
     {
       "id": "42e03ebf-0205-40c6-b704-2d36d12d7c74",
