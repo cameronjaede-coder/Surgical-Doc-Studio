@@ -1,0 +1,159 @@
+{
+  "slug": "i-m-trying-to-write-a-song-that-details",
+  "branch": "main",
+  "exportedAt": "2026-03-31T19:07:55.043Z",
+  "verifiedOnly": false,
+  "exportedBlockIds": [
+    "81f8ec5b-95fa-4403-9bb4-0ea0f050f505",
+    "7b62526c-8aed-4701-9c49-b2d7d1c76fa2",
+    "8b8b543d-c52e-47d8-83a6-87e79f6069c7",
+    "2ff12a9a-bdb9-4f67-8a1c-341fadb28dc6",
+    "ec1bfac8-69ac-4a28-8573-a0bd5d89df52",
+    "2c5b0517-5242-4833-9957-b48150275e53",
+    "eb1c8e08-c4b2-4abe-b5ed-c222bc3f5db2",
+    "4a283ae2-9fb7-4ecf-a31e-41a26425e305",
+    "de715161-4bb2-4973-aff1-0647d9d6ffcf",
+    "66c95111-b56f-4944-91a7-ae13c6b939d6",
+    "415b94b6-ef6d-4fc5-810d-43ed6512b993",
+    "e4d929f1-e7e2-4a38-ab22-23a15d346dbe",
+    "b16f1bb0-5e43-40f1-a0cf-231d05ace88b",
+    "a397d825-d89e-4f82-be9c-46469fc38580",
+    "6100a58f-0c76-45b4-b028-5f353198d018",
+    "1bfefdc9-9852-46d2-a87a-cedd2a2f92d0",
+    "cda3b455-be2a-46fc-bbb6-4542df3d159a",
+    "e8ce1133-fbf2-4645-b7e5-254e72a118dc",
+    "77eab0fa-5371-4c18-9229-5f7c45588b72",
+    "2181ee95-6d1a-44bd-9744-a6d1a9392e07",
+    "e730be67-604c-4d05-821a-0a8f4d47938d"
+  ],
+  "blocks": [
+    {
+      "id": "81f8ec5b-95fa-4403-9bb4-0ea0f050f505",
+      "kind": "header",
+      "text": "# Summertime Chronicles",
+      "verified": false
+    },
+    {
+      "id": "7b62526c-8aed-4701-9c49-b2d7d1c76fa2",
+      "kind": "header",
+      "text": "## Verse 1",
+      "verified": false
+    },
+    {
+      "id": "8b8b543d-c52e-47d8-83a6-87e79f6069c7",
+      "kind": "paragraph",
+      "text": "Yeah, uh, watch the seasons rotate, snow melts away  \nSpring flowers blooming but we waiting for them longer days  \nTemperature rising, feel it in the breeze now  \nWinter coats retired, short sleeves and tank tops freed now  \nCity coming alive like the concrete's breathing  \nKids on the corner, ice cream trucksbeeping  \nOld heads on the stoop playing chess in the shade  \nYoung ones at the hydrant, memories being made  \nFrom the East to the West, same story unfolds  \nPalm trees to brownstones, the summer takes hold  \nNo more grey skies, just that golden glow  \nMother Nature switch it up, now it's time for the show  \nFeel the shift in the air, it's a vibe, it's a mood  \nEverybody stepping out with a different attitude  \nFrom the jackets to the fits that'll make you say \"damn\"  \nSummer's knocking at the door like \"here I am\"",
+      "verified": false
+    },
+    {
+      "id": "2ff12a9a-bdb9-4f67-8a1c-341fadb28dc6",
+      "kind": "header",
+      "text": "## Chorus",
+      "verified": false
+    },
+    {
+      "id": "ec1bfac8-69ac-4a28-8573-a0bd5d89df52",
+      "kind": "paragraph",
+      "text": "Summertime, when the living gets easy  \nWarm nights, cool breeze, feeling so breezy  \nFrom the block parties jumping to the beach so sandy  \nThis the season we been waiting for, can you hear me?  \nSummertime, yeah the sun don't quit  \nEast Coast to the West, we all benefit  \nGot that boom-bap jazz, that's the summer kit  \nThree months of magic, gotta savor it",
+      "verified": false
+    },
+    {
+      "id": "2c5b0517-5242-4833-9957-b48150275e53",
+      "kind": "header",
+      "text": "## Verse 2",
+      "verified": false
+    },
+    {
+      "id": "eb1c8e08-c4b2-4abe-b5ed-c222bc3f5db2",
+      "kind": "paragraph",
+      "text": "May transitioning to June, now we in full swing  \nBarbecue smoke rising, can you smell everything?  \nRibs on the grill, aunties making that sauce  \nUncle at the dominoes, talking 'bout who's the boss  \nGirls in sundresses, fellas looking clean  \nFresh white tees and the newest Jordans on the scene  \nConvertibles dropping tops, systems bumping loud  \nRolling through the neighborhood, music drawing crowds  \nFrom Cali to Brooklyn, same summertime soul  \nDifferent coastlines but the season makes us whole  \nBasketball courts packed from morning 'til it's dark  \nKids playing tag, couples walking through the park  \nLonger days mean more time to shine  \nSun don't set 'til like nine-thirty, feeling fine  \nThis that seasonal switch that we praying for  \nWhen autumn was cold and winter was a war",
+      "verified": false
+    },
+    {
+      "id": "4a283ae2-9fb7-4ecf-a31e-41a26425e305",
+      "kind": "header",
+      "text": "## Chorus",
+      "verified": false
+    },
+    {
+      "id": "de715161-4bb2-4973-aff1-0647d9d6ffcf",
+      "kind": "paragraph",
+      "text": "Summertime, when the living gets easy  \nWarm nights, cool breeze, feeling so breezy  \nFrom the block parties jumping to the beach so sandy  \nThis the season we been waiting for, can you hear me?  \nSummertime, yeah the sun don't quit  \nEast Coast to the West, we all benefit  \nGot that boom-bap jazz, that's the summer kit  \nThree months of magic, gotta savor it",
+      "verified": false
+    },
+    {
+      "id": "66c95111-b56f-4944-91a7-ae13c6b939d6",
+      "kind": "header",
+      "text": "## Bridge",
+      "verified": false
+    },
+    {
+      "id": "415b94b6-ef6d-4fc5-810d-43ed6512b993",
+      "kind": "paragraph",
+      "text": "(Smooth jazz breakdown)  \nWatch the seasons change, yeah they always do  \nBut summertime hits different when it comes through  \nFrom the first warm day to the last sunset  \nThese the memories that we never forget  \nUh, yeah, we cherish every moment  \n'Cause we know that fall is coming, time's a opponent  \nBut right now, right here, we living in the glow  \nSummertime forever, that's all that we know",
+      "verified": false
+    },
+    {
+      "id": "e4d929f1-e7e2-4a38-ab22-23a15d346dbe",
+      "kind": "header",
+      "text": "## Verse 3",
+      "verified": false
+    },
+    {
+      "id": "b16f1bb0-5e43-40f1-a0cf-231d05ace88b",
+      "kind": "paragraph",
+      "text": "Something else that's special lighting up the sky  \nFamily reunions, that's when the whole tribe arrive  \nGraduation parties, young ones moving on  \nNext chapter of their lives, childhood almost gone  \nBeach trips and road trips, making memories  \nLate nights on the porch, talking 'bout our dreams and destinies  \nAugust creeping in, you can feel it slowing down  \nBut we ain't ready yet, still wearing summer's crown  \nLemonade stands and the good humor man  \nKids running wild with that freedom only summer can  \nFrom the Rockaways to Venice Beach sand  \nSame sun shining down on this beautiful land  \nAir Max and shell toes, bucket hats and shades  \nEvery day's a celebration in these golden days  \nSeasons keep rotating but this one's the truth  \nSummertime's the feeling that'll keep you in your youth",
+      "verified": true,
+      "verifiedAt": "2026-03-31T19:07:54.290Z",
+      "verifiedBy": "cameronjaede-coder"
+    },
+    {
+      "id": "a397d825-d89e-4f82-be9c-46469fc38580",
+      "kind": "header",
+      "text": "## Chorus (Extended)",
+      "verified": false
+    },
+    {
+      "id": "6100a58f-0c76-45b4-b028-5f353198d018",
+      "kind": "paragraph",
+      "text": "Summertime, when the living gets easy  \nWarm nights, cool breeze, feeling so breezy  \nFrom the block parties jumping to the beach so sandy  \nThis the season we been waiting for, can you hear me?  \nSummertime, yeah the sun don't quit  \nEast Coast to the West, we all benefit  \nGot that boom-bap jazz, that's the summer kit  \nThree months of magic, gotta savor it",
+      "verified": false
+    },
+    {
+      "id": "1bfefdc9-9852-46d2-a87a-cedd2a2f92d0",
+      "kind": "paragraph",
+      "text": "Summertime, yeah you know what it is  \nNostalgia in the air, takes you back to being a kid  \nWhen the only worry was when the streetlights came on  \nNow we grown but that summer feeling's never gone",
+      "verified": false
+    },
+    {
+      "id": "cda3b455-be2a-46fc-bbb6-4542df3d159a",
+      "kind": "header",
+      "text": "## Outro",
+      "verified": false
+    },
+    {
+      "id": "e8ce1133-fbf2-4645-b7e5-254e72a118dc",
+      "kind": "paragraph",
+      "text": "Yeah, seasons change but this feeling stays eternal  \nSummer in your heart, keep that fire internal  \nFrom spring to summer, watch the world transform  \nEast Coast, West Coast, keeping tradition warm  \nBoom-bap jazz for the soul, you know the vibe  \nSummertime chronicles, this is how we thrive  \nUh, yeah... summertime  \nForever and always... that's right  \n(Instrumental fade with jazz horns and boom-bap drums)",
+      "verified": false
+    },
+    {
+      "id": "77eab0fa-5371-4c18-9229-5f7c45588b72",
+      "kind": "paragraph",
+      "text": "---",
+      "verified": false
+    },
+    {
+      "id": "2181ee95-6d1a-44bd-9744-a6d1a9392e07",
+      "kind": "header",
+      "text": "## Performance Notes",
+      "verified": false
+    },
+    {
+      "id": "e730be67-604c-4d05-821a-0a8f4d47938d",
+      "kind": "list",
+      "text": "- **Tempo**: 90-95 BPM (classic boom-bap tempo)\n- **Instrumentation**: Jazz horn samples, upright bass, vinyl crackle, hard-hitting drums with crisp snares\n- **Vocal Style**: Laid-back but clear delivery, reminiscent of early 90s hip-hop summer anthems\n- **Estimated Length**: Approximately 3 minutes with musical breaks and bridge sections",
+      "verified": false
+    }
+  ]
+}
