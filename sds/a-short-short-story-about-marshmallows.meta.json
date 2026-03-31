@@ -1,7 +1,7 @@
 {
   "slug": "a-short-short-story-about-marshmallows",
   "branch": "main",
-  "exportedAt": "2026-03-31T00:59:11.029Z",
+  "exportedAt": "2026-03-31T00:59:34.043Z",
   "verifiedOnly": false,
   "exportedBlockIds": [
     "83b0bd6c-8a1e-4bca-ab81-0137561a2919",
@@ -32,27 +32,31 @@
       "kind": "header",
       "text": "# The Last Marshmallow: A Journey Through Fire and Sugar",
       "verified": true,
-      "verifiedAt": "2026-03-31T00:59:10.293Z",
+      "verifiedAt": "2026-03-31T00:59:32.876Z",
       "verifiedBy": "cameronjaede-coder"
     },
     {
       "id": "95a06ff1-1f88-4988-92f3-90dd8f7f1c8a",
       "kind": "header",
       "text": "## A Short Story",
-      "verified": false
+      "verified": true,
+      "verifiedAt": "2026-03-31T00:59:32.876Z",
+      "verifiedBy": "cameronjaede-coder"
     },
     {
       "id": "796cc278-15cd-4bad-abd0-d92f7f6c6af8",
       "kind": "header",
       "text": "### Part I: Discovery",
-      "verified": false
+      "verified": true,
+      "verifiedAt": "2026-03-31T00:59:32.876Z",
+      "verifiedBy": "cameronjaede-coder"
     },
     {
       "id": "f4d04787-720a-49b8-8624-568e5c955980",
       "kind": "paragraph",
       "text": "The bag crinkled in Tommy's hands—that familiar rustle of cellophane that promised something sweet. He'd found it wedged behind the cereal boxes, a forgotten relic from last summer's camping trip. Marshmallows didn't really expire, did they? They just got a little harder. A little chewier.",
       "verified": true,
-      "verifiedAt": "2026-03-31T00:53:22.661Z",
+      "verifiedAt": "2026-03-31T00:59:32.876Z",
       "verifiedBy": "cameronjaede-coder"
     },
     {
@@ -60,7 +64,7 @@
       "kind": "paragraph",
       "text": "Inside, only one remained.",
       "verified": true,
-      "verifiedAt": "2026-03-31T00:54:01.642Z",
+      "verifiedAt": "2026-03-31T00:59:32.876Z",
       "verifiedBy": "cameronjaede-coder"
     },
     {
@@ -68,7 +72,7 @@
       "kind": "header",
       "text": "### Part II: The Dilemma",
       "verified": true,
-      "verifiedAt": "2026-03-31T00:54:01.642Z",
+      "verifiedAt": "2026-03-31T00:59:32.876Z",
       "verifiedBy": "cameronjaede-coder"
     },
     {
@@ -76,94 +80,120 @@
       "kind": "paragraph",
       "text": "Tommy stood in the kitchen, golden afternoon light streaming through the window, warming the linoleum beneath his feet. The marshmallow sat in his palm—soft, white, perfect. A small cylinder of sugar and air that weighed almost nothing but somehow felt heavy with possibility.",
       "verified": true,
-      "verifiedAt": "2026-03-31T00:54:01.642Z",
+      "verifiedAt": "2026-03-31T00:59:32.876Z",
       "verifiedBy": "cameronjaede-coder"
     },
     {
       "id": "98afd669-0c82-47a3-af9e-25dce7c353b5",
       "kind": "paragraph",
       "text": "He could:",
-      "verified": false
+      "verified": true,
+      "verifiedAt": "2026-03-31T00:59:32.876Z",
+      "verifiedBy": "cameronjaede-coder"
     },
     {
       "id": "005322b8-1050-4380-811c-e92e72bad9aa",
       "kind": "list",
       "text": "- Eat it plain, let it dissolve slowly on his tongue\n- Toast it over the stove burner, risk burning it for that caramelized shell\n- Drop it in hot chocolate, watch it melt into sweet oblivion\n- Save it for his sister, who loved marshmallows more than anyone he knew",
-      "verified": false
+      "verified": true,
+      "verifiedAt": "2026-03-31T00:59:32.876Z",
+      "verifiedBy": "cameronjaede-coder"
     },
     {
       "id": "0809f406-18ea-400e-a1d3-e7b67b727199",
       "kind": "header",
       "text": "### Part III: The Choice",
-      "verified": false
+      "verified": true,
+      "verifiedAt": "2026-03-31T00:59:32.876Z",
+      "verifiedBy": "cameronjaede-coder"
     },
     {
       "id": "1e3b1d0c-861a-4467-a20e-55030b604d43",
       "kind": "paragraph",
       "text": "His sister was at college now. Three states away. She'd been gone since August, and the house felt bigger without her laugh echoing through the hallways. She wouldn't be home until Thanksgiving—still two weeks away.",
       "verified": true,
-      "verifiedAt": "2026-03-31T00:56:31.830Z",
+      "verifiedAt": "2026-03-31T00:59:32.876Z",
       "verifiedBy": "cameronjaede-coder"
     },
     {
       "id": "7d544baf-3144-448f-aa29-a4f10d280026",
       "kind": "paragraph",
       "text": "Tommy looked at the marshmallow.",
-      "verified": false
+      "verified": true,
+      "verifiedAt": "2026-03-31T00:59:32.876Z",
+      "verifiedBy": "cameronjaede-coder"
     },
     {
       "id": "fc2f7fcf-4c8d-4dc2-9c69-ce64eb8ccca3",
       "kind": "paragraph",
       "text": "Then he looked at the empty bag.",
-      "verified": false
+      "verified": true,
+      "verifiedAt": "2026-03-31T00:59:32.876Z",
+      "verifiedBy": "cameronjaede-coder"
     },
     {
       "id": "c4a69af6-28b7-4c37-8bc0-1a4a50e9c706",
       "kind": "header",
       "text": "### Part IV: Resolution",
-      "verified": false
+      "verified": true,
+      "verifiedAt": "2026-03-31T00:59:32.876Z",
+      "verifiedBy": "cameronjaede-coder"
     },
     {
       "id": "d3714f02-0819-47e9-b05e-e59e57a9b599",
       "kind": "paragraph",
       "text": "When his sister came home fourteen days later, dropping her duffel bag in the entryway with a heavy thud, she found something waiting on her pillow. A small cellophane bag, hand-labeled in Tommy's messy handwriting:",
-      "verified": false
+      "verified": true,
+      "verifiedAt": "2026-03-31T00:59:32.876Z",
+      "verifiedBy": "cameronjaede-coder"
     },
     {
       "id": "25eef7dc-23e9-41c7-a020-f4f81ed8b6a6",
       "kind": "paragraph",
       "text": "**\"Welcome Home. Expiration Date: Never.\"**",
-      "verified": false
+      "verified": true,
+      "verifiedAt": "2026-03-31T00:59:32.876Z",
+      "verifiedBy": "cameronjaede-coder"
     },
     {
       "id": "642f401a-59e0-460f-8e75-6e015fbe115f",
       "kind": "paragraph",
       "text": "Inside, nestled carefully, was one perfectly preserved marshmallow.",
-      "verified": false
+      "verified": true,
+      "verifiedAt": "2026-03-31T00:59:32.876Z",
+      "verifiedBy": "cameronjaede-coder"
     },
     {
       "id": "8f2e0257-f284-4bd6-92e5-15451161d546",
       "kind": "paragraph",
       "text": "She smiled, came downstairs, and found her brother in the kitchen. Without a word, she tore the marshmallow in half. They each ate their piece standing there in the golden light, the same light that had illuminated Tommy's choice two weeks before.",
-      "verified": false
+      "verified": true,
+      "verifiedAt": "2026-03-31T00:59:32.876Z",
+      "verifiedBy": "cameronjaede-coder"
     },
     {
       "id": "4c45efb0-9a64-4381-bacf-60f28ca294e5",
       "kind": "paragraph",
       "text": "Some things, they both understood, taste better when shared.",
-      "verified": false
+      "verified": true,
+      "verifiedAt": "2026-03-31T00:59:32.876Z",
+      "verifiedBy": "cameronjaede-coder"
     },
     {
       "id": "2c7307e5-50c6-4d7f-a556-f31e5ac19c55",
       "kind": "paragraph",
       "text": "---",
-      "verified": false
+      "verified": true,
+      "verifiedAt": "2026-03-31T00:59:32.876Z",
+      "verifiedBy": "cameronjaede-coder"
     },
     {
       "id": "0670dc1f-c8e9-4240-b82d-40b7219c95a9",
       "kind": "paragraph",
       "text": "**The End**",
-      "verified": false
+      "verified": true,
+      "verifiedAt": "2026-03-31T00:59:32.876Z",
+      "verifiedBy": "cameronjaede-coder"
     }
   ]
 }
