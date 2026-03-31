@@ -1,4 +1,4 @@
-# The Last Marshmallow
+# The Last Marshmallow: A Journey Through Fire and Sugar
 
 ## A Short Story
 
