@@ -1,7 +1,7 @@
 {
   "slug": "a-short-short-story-about-marshmallows",
   "branch": "main",
-  "exportedAt": "2026-03-31T00:54:02.871Z",
+  "exportedAt": "2026-03-31T00:56:33.189Z",
   "verifiedOnly": false,
   "exportedBlockIds": [
     "83b0bd6c-8a1e-4bca-ab81-0137561a2919",
@@ -99,7 +99,9 @@
       "id": "1e3b1d0c-861a-4467-a20e-55030b604d43",
       "kind": "paragraph",
       "text": "His sister was at college now. Three states away. She'd been gone since August, and the house felt bigger without her laugh echoing through the hallways. She wouldn't be home until Thanksgiving—still two weeks away.",
-      "verified": false
+      "verified": true,
+      "verifiedAt": "2026-03-31T00:56:31.830Z",
+      "verifiedBy": "cameronjaede-coder"
     },
     {
       "id": "7d544baf-3144-448f-aa29-a4f10d280026",
