@@ -6,6 +6,6 @@ Strange calls echo through the mist,
 Shadows shift where light has kissed.
 
 Winter's silence melts away,
-Colors bloom in bright array,
+Spring blooms in bright array,
 Soft rain whispers through the trees,
 Life awakens on the breeze.
