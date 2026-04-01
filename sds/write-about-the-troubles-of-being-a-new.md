@@ -8,4 +8,4 @@ The stress intensifies during interview assignments. You're given 48 hours to pr
 
 Then there's the technical gap. Senior designers reference prototyping best practices you've never heard of. Your portfolio pieces, created in isolation, suddenly feel amateur compared to the collaborative, real-world projects you're competing against.
 
-The truth? Everyone starts here. That imperfect prototype is your starting line, not your finish. Each iteration, each critique, each rejected application teaches you something. The struggle isn't a sign you're not ready—it's proof you're becoming a designer.
+The reality? This is where every designer begins. That flawed first attempt isn't failure—it's your foundation. Every revision, every piece of feedback, every rejection shapes your craft. The difficulty isn't evidence of inadequacy—it's the process of transformation itself.
