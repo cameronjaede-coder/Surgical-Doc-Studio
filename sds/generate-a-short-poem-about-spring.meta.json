@@ -1,26 +1,20 @@
 {
   "slug": "generate-a-short-poem-about-spring",
   "branch": "main",
-  "exportedAt": "2026-04-01T18:31:53.637Z",
+  "exportedAt": "2026-04-01T18:32:14.317Z",
   "verifiedOnly": false,
   "exportedBlockIds": [
     "39e7a5aa-396c-48d8-9be3-75ab12a9d308",
-    "3dc3f444-1fbc-4ff7-b3a7-f6a35a72446c",
-    "54ba97d9-3acc-47b5-8735-b734751a2dab"
+    "54ba97d9-3acc-47b5-8735-b734751a2dab",
+    "3dc3f444-1fbc-4ff7-b3a7-f6a35a72446c"
   ],
   "blocks": [
     {
       "id": "39e7a5aa-396c-48d8-9be3-75ab12a9d308",
       "kind": "header",
       "text": "# Spring",
-      "verified": false
-    },
-    {
-      "id": "3dc3f444-1fbc-4ff7-b3a7-f6a35a72446c",
-      "kind": "paragraph",
-      "text": "Pale tendrils breach the thawing ground,\nPetals unfurl without a sound,\nStrange calls echo through the mist,\nShadows shift where light has kissed.",
       "verified": true,
-      "verifiedAt": "2026-04-01T18:31:25.477Z",
+      "verifiedAt": "2026-04-01T18:32:13.481Z",
       "verifiedBy": "cameronjaede-coder"
     },
     {
@@ -28,7 +22,15 @@
       "kind": "paragraph",
       "text": "Winter's silence melts away,\nSpring blooms in bright array,\nSoft rain whispers through the trees,\nLife awakens on the breeze.",
       "verified": true,
-      "verifiedAt": "2026-04-01T18:31:52.969Z",
+      "verifiedAt": "2026-04-01T18:32:13.481Z",
+      "verifiedBy": "cameronjaede-coder"
+    },
+    {
+      "id": "3dc3f444-1fbc-4ff7-b3a7-f6a35a72446c",
+      "kind": "paragraph",
+      "text": "Pale tendrils breach the thawing ground,\nPetals unfurl without a sound,\nStrange calls echo through the mist,\nShadows shift where light has kissed.",
+      "verified": true,
+      "verifiedAt": "2026-04-01T18:32:13.481Z",
       "verifiedBy": "cameronjaede-coder"
     }
   ]
