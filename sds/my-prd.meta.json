@@ -1,7 +1,7 @@
 {
   "slug": "my-prd",
   "branch": "main",
-  "exportedAt": "2026-04-01T18:08:11.761Z",
+  "exportedAt": "2026-04-01T18:08:37.462Z",
   "verifiedOnly": false,
   "exportedBlockIds": [
     "c3966970-7351-464f-97e4-950f1f9276a7",
@@ -33,7 +33,9 @@
       "id": "a1aa1db8-ec5f-4058-bf51-556f7b892acb",
       "kind": "header",
       "text": "## The Little Monkey's Adventure",
-      "verified": false
+      "verified": true,
+      "verifiedAt": "2026-04-01T18:08:36.815Z",
+      "verifiedBy": "cameronjaede-coder"
     },
     {
       "id": "fdd24ce0-9f8d-4f71-be83-89f804f6a6bb",
