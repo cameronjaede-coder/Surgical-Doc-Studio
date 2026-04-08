@@ -5,10 +5,10 @@ A server farm hums, cooling fans like wings—
 Each prompt, each pixel, each synthetic mind  
 Burns watts that leave the living world behind.
 
-We shape intelligence from sand and stone,  
-Train neural nets till patterns bloom and grown,  
-Yet every thought we teach machines to think  
-Demands the glaciers melt, the coastlines shrink.
+We forge intelligence from silicon veins,
+Teach neural webs through countless training chains,
+But every insight that we coax to light
+Burns carbon fuel and deepens climate's plight.
 
 The data centers sprawl like concrete reefs,  
 Consuming rivers, trading roots for griefs—  
